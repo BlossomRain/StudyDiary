@@ -12,35 +12,35 @@
 
 ## 2.  标识符相关
 
-1. **命名规则:字母 _ $ 数字,数字不能开头**
+### 1. **命名规则:字母 _ $ 数字,数字不能开头**
 
-2. **命名规范:**
+### 2. **命名规范:**
 
    1. package xxxx
    2. class XxxxYyy  
    3. int  xxxYyyZzz
    4. final  XXX_YYY
-   
-3. **关键字,保留字都是小写**
 
-   ---
+### 3. **关键字,保留字都是小写**
+
+---
 
    
 
 ## 3.类型转换
 
-   	**1. 7种基本类型之间转换**
+   ### 	**1. 7种基本类型之间转换**
 
-![类型转换](images/类型转换.PNG)
+![类型转换](java复习笔记.assets/类型转换.PNG)
 
- 2. **8种类型和string类型(引用类型)之间用 + 是连接**
+ ### 2. **8种类型和string类型(引用类型)之间用 + 是连接**
 
- 3. **包装类Wrapper	对应8种基本类型**
+ ### 3. **包装类Wrapper	对应8种基本类型**
 
     1. 原因:希望基本数据类型也有面向对象的功能,特点(继承,封装,多态),统一起来
     2. 除了character 和Boolean,其他包装类都有共同父类,Number
     3. 相互转换  基本数据类型  包装类  String类
-
+    
     ```java
     //这里以int类型为例子
     
@@ -59,21 +59,22 @@
     // String --> int		parseInt(Integer类的)
     i = Integer.parseInt(s);
     ```
-
+    
     4. **Integer**
-
+    
     ```java
     //有一个IntegerCache内部类,从-128到127
     //自动装箱时候可以直接从里面获取
     ```
-
+    
     ---
-    
-    
+
+
+​    
 
 ## 4.运算符
 
-1. **++操作 ,+= , ?:**
+### 1. **++操作 ,+= , ?:**
 
 ```java
  byte i = 0;
@@ -96,7 +97,7 @@ Object obj = true?new Integer(1):new Double(2);//1.0 原因:自动类型提升
       14:  return
  ```
 
-2. **变量交换**
+### 2. **变量交换**
 
    ```java
    //1.中间变量
@@ -110,13 +111,13 @@ Object obj = true?new Integer(1):new Double(2);//1.0 原因:自动类型提升
    num1 = num1 ^ num2;
    ```
 
-   ---
-   
+---
+
    
 
 ## 5.类 及 类的结构
 
- 1. **局部变量和属性**
+ ### 1. **局部变量和属性**
 
      	1. 声明位置不同
       2. 默认值不同,属性有默认值,默认值参照xmind图
@@ -124,29 +125,29 @@ Object obj = true?new Integer(1):new Double(2);//1.0 原因:自动类型提升
       4. 权限修饰
       5. 内存:非静态属性在堆中, 局部变量在jvm栈里面,静态属性在方法区
 
- 2. **可变形参 jdk5.0加入**
+ ### 2. **可变形参 jdk5.0加入**
 
     本质就是数组
-
-	- 值传递机制  值类型和引用类型
-
+    
+    - 值传递机制  值类型和引用类型
+    
     - 属性赋值顺序  :    默认初始化->显示初始化/代码块->构造器->set方法
+    
+    - this() 要放在构造器内首行,参数少的调用参数多的
 
-	- this() 要放在构造器内首行,参数少的调用参数多的
-	
- 3. **多态性只适用于方法,不适用于属性**
+ ### 3. **多态性只适用于方法,不适用于属性**
 
        1. 多态是运行时行为 动态绑定(运行时期绑定方法)
        2. 重载和重写对比
-
+    
       | 区别点   | 重载方法 | 重写方法                                       |
       | :------- | :------- | :--------------------------------------------- |
       | 参数列表 | 必须修改 | 一定不能修改                                   |
       | 返回类型 | 可以修改 | 一定不能修改                                   |
       | 异常     | 可以修改 | 可以减少或删除，一定不能抛出新的或者更广的异常 |
       | 访问     | 可以修改 | 一定不能做更严格的限制（可以降低限制）         |
-      
- 4. Object类 及常用方法
+
+ ### 4. Object类 及常用方法
 
 
 ```java
@@ -172,12 +173,12 @@ Object obj = true?new Integer(1):new Double(2);//1.0 原因:自动类型提升
 
 - equals方法     对象调用,不能使用在基本数据类型间,但是它可以重写
 
-5. **static关键字**
+### 5. **static关键字**
    + 修饰 属性 方法 内部类 代码块	//常见用于共享的属性(常量....),工具类
    + 不可以调用this() super()
    + 有默认值
    + Singleton
-6. **abstract 和 interface(模板方法设计模式)**
+### 6. **abstract 和 interface(模板方法设计模式)**
    + abstract 可以修饰类 和 方法   
      + 类不可以实例化,仍然有构造器,子类可以调用
      + 抽象方法父类不实现,由子类实现
@@ -252,13 +253,13 @@ class ProxyServer implements NetWork{
 }
 ```
 
-7. **内部类**
-   
+### 7. **内部类**
+
    1. 作为外部类的成员  可以调用外部类的结构,可以被static修饰,可以被四种权限修饰
    2. 作为类 可以定义属性方法构造器等,可以被final,abstract修饰
-   
-   *****
-   
+
+*****
+
    
 
 ## 6.异常
@@ -267,6 +268,7 @@ class ProxyServer implements NetWork{
 2. "抓":   try-catch-finally        throws
 3. 子类抛出的异常不能大于父类 -->如果父类的方法没有写throws,则子类要try-catch
 4. 方法a中调用了几个递进的方法,在a中用一个try-catch处理
+5. 自定义异常不可带泛型
 
 ---------
 
@@ -274,13 +276,13 @@ class ProxyServer implements NetWork{
 
 ## 7.多线程
 
-	1. 线程 与 进程
+	### 1. 线程 与 进程
 
 > **进程——资源分配的最小单位**  	 程序是指令的有序集合，其本身没有任何运行的含义，是一个静态的概念。而进程是程序在处理机上的一次执行过程，它是一个动态的概念	
 >
 > **线程——程序执行的最小单位**	线程是操作系统进程中能够并发执行的实体，程序内部的一条执行路径,是处理器调度和分派的基本单位。
 
-2. **线程的创建 (4中方法)与使用**
+### 2. **线程的创建 (4中方法)与使用**
 
 ```java
 // 1.继承Thread类 可以使用匿名子类
@@ -316,7 +318,7 @@ ExecutorService.submit/execute	//适合Callable /Runnable
 */
 ```
 
-3. **线程的生命周期**
+### 3. **线程的生命周期**
 
 ```java
 //Thread的内部类
@@ -325,9 +327,9 @@ public enum State {
 }
 ```
 
-![线程生命周期](images/线程生命周期.png)
+![](java复习笔记.assets/线程生命周期.png)
 
-4. **同步机制** 
+### 4. **同步机制** 
 
    1. 原因:并发问题,一个线程操作未完成,另一个线程也进来操作
    2. 方案:同步机制   局限性:效率低,死锁
@@ -346,7 +348,7 @@ public enum State {
    >>>对比:lock手动释放锁,灵活一点
    ```
 
-5. **线程通信**
+### 5. **线程通信**
 
 ```java
 //wait()        			进入阻塞状态,会释放锁,但是sleep不会
@@ -368,7 +370,7 @@ public enum State {
 
 ## 8.常用类
 
-1. **String类**
+### 1. **String类**
 
 ```java
 public final class String
@@ -411,7 +413,7 @@ s.toCharArray()  ----  new String(char[] arr)
 s.getBytes()	-----  new String(byte[] arr,charset)
 ```
 
-2. **StringBuild StringBuffer**
+### 2. **StringBuild StringBuffer**
 
 - 比较	建议:指定大小,避免扩容	
 
@@ -424,7 +426,7 @@ s.getBytes()	-----  new String(byte[] arr,charset)
   | 扩容               | length<<1+2     |               |
   
 
-3. **时间日期类**	**java.lang.System类提供了获取当前时间**
+### 3. **时间日期类**	**java.lang.System类提供了获取当前时间**
 
 | <jdk8                                         | 格式化/解析                  |                                              |
 | --------------------------------------------- | ---------------------------- | -------------------------------------------- |
@@ -438,7 +440,7 @@ s.getBytes()	-----  new String(byte[] arr,charset)
 | now()/of()/get/set | withXxxx()   | now()   |
 |                    |              |         |
 
-4. **比较器**
+### 4. **比较器**
 
 ```java
 	Comaparable              Comparator
@@ -456,7 +458,7 @@ getProperty(...)
 
 ## 9.枚举类   注解
 
-1. **枚举**	类的对象只有有限的
+### 1. **枚举**	类的对象只有有限的
 
 - 自定义枚举类  
 - enum与Enum
@@ -465,7 +467,7 @@ getProperty(...)
 - 实现接口的枚举类
   - 每个对象都Override
 
-2. **注解**     参考https://www.runoob.com/w3cnote/java-annotation.html
+### 2. **注解**     参考https://www.runoob.com/w3cnote/java-annotation.html
 
 > Java 注解（Annotation）又称 Java 标注，是 JDK5.0 引入的一种注释机制.Java 语言中的类、方法、变量、参数和包等都可以被标注。Java 标注可以通过反射获取标注内容。在编译器生成类文件时，标注可以被嵌入到字节码中。Java 虚拟机可以保留标注内容，在运行时可以获取到标注内容 。
 
@@ -494,7 +496,7 @@ getProperty(...)
 */
 ```
 
-2. Annotation组成部分 
+### 2. Annotation组成部分 
 
 ```java
 Annotation关联一个RetentionPolicy类对象和多个ElementType类对象
@@ -506,7 +508,7 @@ Annotation关联一个RetentionPolicy类对象和多个ElementType类对象
 - **引入**
   - 数组存储的特点:长度 类型在初始化就确定了,有序可重复,插入\删除不适合
 
-1. **常见集合的分类**
+### 1. **常见集合的分类**
 
 **Collection** 接口的接口 对象的集合（单列集合）
 ├——-**List** 接口：动态数组,用于替换原来的数组,元素按进入先后有序保存，可重复
@@ -527,8 +529,8 @@ Annotation关联一个RetentionPolicy类对象和多个ElementType类对象
 ├ ——–**TreeMap** 红黑树对所有的key进行排序
 └———**IdentifyHashMap**
 
-2. 常用方法 看文档
-3. 注意事项
+### 2. 常用方法 看文档
+### 3. 注意事项
 
 ```java
 //基本类型的数组会识别为一个,但是引用类型会拆开,只能是一个数组,
@@ -538,12 +540,12 @@ Annotation关联一个RetentionPolicy类对象和多个ElementType类对象
         List list = Arrays.asList(new char[]{'1','2'});
 ```
 
-4. **Iterator设计模式**
+### 4. **Iterator设计模式**
 
 - 接口 Iterator -->方法 next()    hasNext()
 - foreach 是取出元素复制给局部变量,修改的话注意值传递机制
 
-5. **源码**
+### 5. **源码**
 
 - List的实现类
 
@@ -645,21 +647,21 @@ static class Entry<K,V> extends HashMap.Node<K,V> {
 
 ## 11.泛型
 
-1. **引入** jdk5.0
+### 1. **引入** jdk5.0
 
 + 没有泛型时,容器类存在类型不安全,转换异常
 
 - 允许在定义类.接口时通过一个标识表示类中的某个属性或方法的返回值,参数,这个标识就是**泛型**
 - **泛型提供了编译时类型安全监测机制**
 
-2. **注意点**
+### 2. **注意点**
 
 - 不能使用基本类型
 - 默认时Object
 - jdk7 菱形语法(类型推断)
 - 泛型是要在对象创建的时候才知道是什么类型的
 
-3. **自定义泛型**
+### 3. **自定义泛型**
 
 ```java
 //泛型类/接口		
@@ -686,21 +688,114 @@ List<? super String> list	//>=
 
 ## 12.IO流 
 
-1. **File类**
+### 1.**File类**
 
 - 创建一个对象时,在内存层面的,无论实际文件存不存在,都不会报错,默认相对路径基于module
 
-2. **流的分类**
+### 2. **流的分类**
 
 - 根据传输单位  字节流(stream)               		字符流(reader/writer)
 - 根据传输方向  输入流 (input)	                     输出流(output)
 - 根据处理过程  节点流 (FileXxx)                     处理流(其它)
 
-3. **使用注意**
+### 3. **使用注意**
 
 - 使用后必须关闭,放在finally里面
 - 读文件时候,文件必须存在,不存在会报异常    写文件则不用
 - 先关闭外层流,再关闭内层流
+- idea的junit在输入时候有问题,改用main方法测试就可以
+
+### 4.  **常用流**
+
+   + **缓冲流**(加快读写速度)	                 BufferedXxx
+
+   + **转换流**(字节->字符转换)                  InputStreamReader OutputStreamWriter
+   + 标准输入输出流(键盘/控制台)          System.in/ System.out/ System.err;可以使用System.setIn()修改标准输入输出
+   + 打印流         PrintStream,PrintWriter 重载了很多print(),调System.setOut()修改输出
+   + 数据流        用于读写基本数据类型的变量或者字符串,读写顺序要一致
+   + **对象流**       
+     1. **序列化**用ObjectOutputStream类保存对象/基本数据类型的机制,即允许把内存中的Java对象转换成与平台无关的二进制流
+     2. 实现Serializable接口\Externalizable接口,并且提供public static final long serialVersionUID = 123321L;
+     3. 假如不加序列化版本标识符,修改后,在反序列化时候可能识别不出原来的
+     4. 内部属性也必须要都是能序列化的
+     5. static,transient修饰的成员不参加序列化
+   + 随机存取文件流      直接继承Object,即可以输入,又可以输出 , getFilePoint(),seek();默认会对文件从头覆盖;随机插入需要自己实现从指针处到结尾的复制
+
+### 5. **字符集**(Unicode是统称)
+
+- GBK   最多两个字节,用首位1标识一个字符两个字节
+- UCS Transfer Fomat   一个字节0xxxxxxx  两个字节 110xxxxx 10xxxxxx  三个字节1110xxxx 10xxxxxx 10xxxxxx
+
+### 6. **NIO2** jdk7 基于channel 可以自己了解
+
+- Path接口    Paths工具类   Files
+
+## 13.网络编程(web阶段)
+
+### 1.目的
+
+​	直接或者间接得通过网络协议与其他计算机进行通讯,需要了解ip和端口(定位主机,进程);协议(传输规则) 具体的知识细节查看网络原理
+
+​	tcp(三次握手,四次挥手)  udp(
+
+### 2.常用类
+
+- InetAddress        代表一个IP地址  socket= ip+port,网络通信=socket通信
+- Socket                步骤:创建连接的IP,port的socket,获取连接的流,发送数据,关闭
+- ServerSocket     步骤:创建port的ServerSocket,accept(),获取连接的流,接收数据,关闭
+- 由于是阻塞式IO,会在传输后不退出,需要手动关闭,socket.shutdownInputStream()...
+- DatagramSocket UDP传输:发送端--创建DatagramSocket对象,再创建DatagramPacket对象,然后send,关闭
+                                             接收端---创建DatagramSocket(port)对象,再创建DatagramPacket(buffer)对象,然后receiver
+- URL                  统一资源定位符,用于标识网络上的一个资源,步骤:先获取连接url.getOpenConnection(),然后connect(),获取流,保存,关闭
+
+## 14.反射Reflection
+
+### 1.引入
+
+- 反射被视为动态语言的关键,反射机制允许程序在执行期间借助于ReflectionAPI取得任何类的内部信息,并能操作类对象的内部属性及方法 
+
+- 原理:类加载后,堆中会有一份Class类型的对象,包含了这个类的完整信息
+  1. 类的加载过程:程序经过编译后会生成若干个.class文件,接着java.exe对某个字节码文件进行解释运行,相当于将某个类加载到内存中,这个就是类的加载,加载到内存中的类称为运行时类,就作为Class的一个实例
+
+- 反射与封装的关系
+  - 封装是将具体的实现细节隐藏，而把功能作为整体提供给类的外部使用，也就是说，公有方法能够完成类所具有的功能。
+  - 反射是使得我们能去调类的方法,属性,(而调用私有结构是反射功能太强,我们可以用,但没必要)
+
+### 2.常用类
+
+java.lang.Class 描述类的通用类  (本质也是类,继承于Object)
+
+```java
+//获取实例的4种方式
+Class<Person> clazz = Person.class
+clazz = p.getClass()
+clazz = Class.forName("包路径.Person")
+clazz = this.getClass().getClassLoader().load("包路径.Person");
+//Class的实例 可以是class,interface,[],int,innovation,void,[][]
+数组只要维度和类型一致就是同一种类型;
+classLoader加载资源文件时相对路径从src下开始
+ 
+```
 
 
+
+java.reflection.*  跟反射相关
+
+### 3.注意事项
+
+- 步骤:获取Class对象clazz,利用clazz的方法去获取结构对象obj,再用obj调用方法,传入对象和参数(私有属性,需要先调用setAccessable)
+
+```java
+Class clazz = Person.class
+clazz.newInstance()//调用空参构造器
+clazz.getDeclaredConstructor(xx.class,xx.class).newInstance(xx,xx)//有参
+```
+
+
+
+
+
+​	
+
+ 
 
