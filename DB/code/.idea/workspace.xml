@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb696e3d-25b1-4638-8b02-22b18bac2fa4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/test/Basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/PrepareStatementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/CoreJavaVolumeI/CoreJavaVolumeI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/CoreJavaVolumeI/src/com/test/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/CoreJavaVolumeI/src/com/test/ClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/CoreJavaVolumeI/src/com/test/PrimitiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/test/java/com/Java8Test/LambdaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/test/java/com/Java8Test/StreamAPITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/test/java/com/reflectionTest/Creature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/test/java/com/reflectionTest/DynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/test/java/com/reflectionTest/MyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/test/java/com/reflectionTest/StaticProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/JavaSE.xmind" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/test/java/com/reflectionTest/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/test/java/com/reflectionTest/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/test/java/com/reflectionTest/ReflectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/test/java/com/reflectionTest/ReflectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/Singleton/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/Singleton/SingletonLazy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/Singleton/SingletonLazySync.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/domain/Architect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/domain/Designer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/domain/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/domain/Equipment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/domain/NoteBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/domain/PC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/domain/Printer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/domain/Programmer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/service/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/service/NameListService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/service/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/service/TeamException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/service/TeamService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/view/TSUtility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/view/TeamView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/basicExe/service/NameListServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/basicTest/ArrayTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/basicTest/BasicUsageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/basicTest/ClassTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/basicTest/PrimeNumberTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/basicTest/polymorphism$A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/basicTest/polymorphism$B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/basicTest/polymorphism.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/compareTest/CompareTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/compareTest/CompareTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/compareTest/Mouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/containerTest/CollectionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/containerTest/MapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/enumannotation/EnumTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/enumannotation/Season.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/enumannotation/SeasonEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/enumannotation/annotationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/genericTest/GenericTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/iotest/BufferReaderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/iotest/FileReaderWriterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/iotest/FileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/iotest/FindJPGFileTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/iotest/FindJPGFileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/iotest/ListFilesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/iotest/ObjectInputTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/iotest/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/netTest/NetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/reflectionTest/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/reflectionTest/ReflectionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/stringTest/StringBufferTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/stringTest/StringExer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/stringTest/StringTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/threadTest/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/threadTest/MyThread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/threadTest/ThreadTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/threadTest/TicketTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/threadTest/TicketWindowExt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/threadTest/TicketWindowImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/threadTest/TicketWindowLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/timeTest/TimeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/java复习笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaSE/java复习笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/test/PrepareStatementTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/java/com/Basic.java" />
+        <option value="$PROJECT_DIR$/src/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/com/test/Basic.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\IntelliJ IDEA 2018.3.6\maven_repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../OpenSources/apache-maven-3.6.3" />
+        <option name="pluginUpdatePolicy" value="DO_NOT_UPDATE" />
+        <option name="userSettingsFile" value="E:\Java\OpenSources\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="612" />
+    <option name="y" value="12" />
+    <option name="width" value="724" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JDBC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDBC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDBC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585144752876" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.8/mysql-connector-java-5.1.8.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Basic.testJDBC5">
+    <configuration name="Basic.testJDBC (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.Basic" />
+      <option name="METHOD_NAME" value="testJDBC" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Basic.testJDBC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java.com" />
+      <option name="MAIN_CLASS_NAME" value="java.com.Basic" />
+      <option name="METHOD_NAME" value="testJDBC" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Basic.testJDBC3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.Basic" />
+      <option name="METHOD_NAME" value="testJDBC3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Basic.testJDBC4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.Basic" />
+      <option name="METHOD_NAME" value="testJDBC4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Basic.testJDBC5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.Basic" />
+      <option name="METHOD_NAME" value="testJDBC5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Basic.testJDBC5" />
+        <item itemvalue="JUnit.Basic.testJDBC4" />
+        <item itemvalue="JUnit.Basic.testJDBC3" />
+        <item itemvalue="JUnit.Basic.testJDBC (1)" />
+        <item itemvalue="JUnit.Basic.testJDBC" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb696e3d-25b1-4638-8b02-22b18bac2fa4" name="Default Changelist" comment="" />
+      <created>1585140119619</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585140119619</updated>
+      <workItem from="1585140123985" duration="3768000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Basic - 2020.03.25 at 21h 34m 25s.xml">
+      <configuration name="Basic" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Basic_testJDBC - 2020.03.25 at 21h 34m 37s.xml">
+      <configuration name="Basic.testJDBC" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Basic_testJDBC_(1) - 2020.03.25 at 21h 35m 27s.xml">
+      <configuration name="Basic.testJDBC (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Basic_testJDBC_(1) - 2020.03.25 at 21h 37m 02s.xml">
+      <configuration name="Basic.testJDBC (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Basic_testJDBC3 - 2020.03.25 at 21h 44m 27s.xml">
+      <configuration name="Basic.testJDBC3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Basic_testJDBC4 - 2020.03.25 at 21h 47m 57s.xml">
+      <configuration name="Basic.testJDBC4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Basic_testJDBC5 - 2020.03.25 at 21h 58m 57s.xml">
+      <configuration name="Basic.testJDBC5" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3768000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="JRebel" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4107413" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="ConsoleMavenPlugin" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" />
+      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4888179" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.8/mysql-connector-java-5.1.8.jar!/com/mysql/jdbc/Driver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/Basic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testJDBC5#0;class#Basic#0" />
+            <element signature="method#testJDBC3#0;class#Basic#0" />
+            <element signature="method#testJDBC2#0;class#Basic#0" />
+            <element signature="method#testJDBC#0;class#Basic#0" />
+            <element signature="method#testJDBC#0;class#Basic#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="11" selection-start-line="3" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/PrepareStatementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JDBC_study</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

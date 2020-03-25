@@ -5,8 +5,9 @@ package com.reflectionTest;
  * @Date: 2020/3/22 0022
  * @Description:反射用的一个类,用于获取信息
  */
-public class Person {
+public class Person extends Creature<String> implements Comparable<Person> {
 
+    @MyAnnotation
     private String name;
     private int age;
 
@@ -18,7 +19,8 @@ public class Person {
                 '}';
     }
 
-    private void show(){
+    @MyAnnotation(value = "abc")
+    private void show() {
         System.out.println("this is show method!");
     }
 
@@ -41,8 +43,15 @@ public class Person {
     public Person() {
     }
 
+
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
+    }
+
+
+    @Override
+    public int compareTo(Person o) {
+        return name.compareTo(o.name);
     }
 }

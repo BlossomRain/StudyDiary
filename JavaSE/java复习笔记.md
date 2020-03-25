@@ -1,4 +1,4 @@
-## 1.	JDK JRE JVM之间的关系
+1.	JDK JRE JVM之间的关系
 
 ​	jdk = jre+ Java开发工具(javac.exe java.exe 等) bin lib db include jre 等
 
@@ -511,7 +511,7 @@ Annotation关联一个RetentionPolicy类对象和多个ElementType类对象
 ### 1. **常见集合的分类**
 
 **Collection** 接口的接口 对象的集合（单列集合）
-├——-**List** 接口：动态数组,用于替换原来的数组,元素按进入先后有序保存，可重复
+├——-**List** 接口：动态数组,用于替换原来的数组,元素按进入先后有序保存，可重复 
 │—————-├ **LinkedList** 接口实现类， 链表， 插入删除， 没有同步， 线程不安全
 │—————-├ **ArrayList** 接口实现类， 数组， 随机访问， 没有同步， 线程不安全
 │—————-└ **Vector** 接口实现类 ,数组， 同步， 线程安全
@@ -781,15 +781,165 @@ classLoader加载资源文件时相对路径从src下开始
 
 java.reflection.*  跟反射相关
 
+```java
+//常用方法
+//1. 获取属性及其结构-->方法 ,构造器,异常都是类似的
+clazz.getFields();//获取公共属性,包括父类的
+clazz.getDeclaredFields();//获取类的所有属性,包括私有的
+	field.getModifiers()//获取权限修饰符,返回的是int型
+     Modifier.toString(modifiers)//将int转换为修饰类型
+     field.getType()//获取属性类型
+
+```
+
+
+
 ### 3.注意事项
 
 - 步骤:获取Class对象clazz,利用clazz的方法去获取结构对象obj,再用obj调用方法,传入对象和参数(私有属性,需要先调用setAccessable)
+- javabean中要求一个空参构造器  1.便于反射构造对象 2.子类继承默认调用
 
 ```java
 Class clazz = Person.class
-clazz.newInstance()//调用空参构造器
+clazz.newInstance()//调用空参构造器,
 clazz.getDeclaredConstructor(xx.class,xx.class).newInstance(xx,xx)//有参
 ```
+
+### 4.代理模式(两个类实现同一个接口,由代理类管理被代理类)
+
+```java
+//动态代理
+class ProxyFactory {//代理工厂
+    /**
+     * @param obj:被代理类
+     * @Description: 根据被代理类获取代理类
+     * @create: 2020/3/23 0023 21:50
+     * @return: 代理类
+     */
+    public static Object getProxyInstance(Object obj) {
+        Class clazz = obj.getClass();
+        InvocationHandler handler = new MyInvocationHandler();
+        ((MyInvocationHandler) handler).bind(obj);
+        Object proxyInstance = Proxy.newProxyInstance(clazz.getClassLoader(), clazz.getInterfaces(),
+                handler);
+        return proxyInstance;
+    }
+}
+//
+class MyInvocationHandler implements InvocationHandler {
+    private Object obj;//被代理类
+    public void bind(Object obj) {
+        this.obj = obj;
+    }
+    /**
+     * @param proxy:  代理类
+     * @param method: 代理类方法
+     * @param args:   代理类方法需要的参数
+     * @Description:  代理类被调用方法时候会调用invoke
+     * @create: 2020/3/23 0023 22:03
+     * @return: java.lang.Object
+     */
+    @Override
+    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+        //代理类对象调用的方法,即被代理类的方法
+        Object invoke = method.invoke(obj, args);
+        return invoke;
+    }
+}
+
+```
+
+## java8 新特性
+
+### 1.Lambda表达式
+
+```java
+//匿名函数-->本质,是一个接口(只能有一个抽象方法)的实现子类对象
+(o1,o2) -> {...}
+参数列表 λ操作符 λ体
+1.无参无返回 Runnable e = ()->{...}
+2.有参无返回 Consumer c = (String s)->{...}
+3.类型推断	Consumer  c = ( s)->{...}
+4.一个参数	Consumer  c = s->{...} 
+5.多条语句且有返回值 Comparator  c = (o1,o2)->{}
+6.只有一条执行语句   Comparator  c = (o1,o2)->o1.compare(o2)
+```
+
+### 2.函数式接口
+
+如果接口中只有一个抽象方法,那么这个接口就是函数式接口,对应的注解@FunctionalInterface
+
+```java
+//四大核心函数式接口
+Supplier<T> { T get();}
+Consumer<T> { void accept(T t);}
+Function<T, R> { R apply(T t);}
+Predicate<T> { boolean test(T t);}
+```
+
+### 3.方法引用
+
+lambda的语法糖:当要调用的方法和lambda的抽象方法类型一致时,可以直接用
+
+类/对象::方法进行赋值
+
+```java
+Consumer<String> con = System.out::println;//类::静态方法,对象::实力方法
+//类::实例方法 s1.method(s2)
+Comparator<String> c = (s1,s2)->s1.compareTo(s2)
+c = String::compareTo;
+
+//构造器引用,空参构造器对应Supplier::get
+Supplier<Employee> e = Employee::new; e.get();//返回一个对象
+//数组构造器,同上
+
+```
+
+### 2.StreamAPI
+
+提供对容器数据的运算,过滤,规约 ....不存储,不改变,延迟操作
+
+```java
+//对象的4中创建方式
+1. list.stream();list.parallelStream();
+2. Arrays.stream()
+3. Stream.of()
+4. Stream.iterate();Stream.generate();
+```
+
+- 中间操作
+
+  - 筛选.切片
+
+    ```java
+     stream.filter  | stream.limit  | stream.distinct |stream.skip
+    ```
+
+  - 映射
+
+    ```java
+    stream.map | stream.flatmap
+    ```
+
+  - 排序
+
+    ```java
+    stream.sorted
+    ```
+
+- 终止操作 
+
+  - 匹配   allMatch  |  anyMatch  | foreach |  count  |   max  |  min
+  - 规约   reduce   |
+  - 收集   collect(Collectors.toXxx)
+
+### 3.Optional类
+
+创建对象  .of  | .ofNullable 
+
+方法  orElse()   |   
+
+
 
 
 
