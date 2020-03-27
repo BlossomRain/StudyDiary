@@ -2,78 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0133011b-0e08-4ab4-ba9c-bbae3f1fa02b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CoreJavaVolumeI/CoreJavaVolumeI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJavaVolumeI/src/com/test/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJavaVolumeI/src/com/test/ClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreJavaVolumeI/src/com/test/PrimitiveTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavabaseTest/src/test/java/com/Java8Test/LambdaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavabaseTest/src/test/java/com/Java8Test/StreamAPITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavabaseTest/src/test/java/com/reflectionTest/Creature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavabaseTest/src/test/java/com/reflectionTest/DynamicProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavabaseTest/src/test/java/com/reflectionTest/MyAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavabaseTest/src/test/java/com/reflectionTest/StaticProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaSE.xmind" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/src/test/java/com/reflectionTest/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavabaseTest/src/test/java/com/reflectionTest/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/src/test/java/com/reflectionTest/ReflectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavabaseTest/src/test/java/com/reflectionTest/ReflectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/classes/Singleton/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/classes/Singleton/SingletonLazy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/classes/Singleton/SingletonLazySync.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/classes/basicExe/domain/Architect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/classes/basicExe/domain/Designer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/classes/basicExe/domain/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/classes/basicExe/domain/Equipment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/classes/basicExe/domain/NoteBook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/classes/basicExe/domain/PC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/classes/basicExe/domain/Printer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/classes/basicExe/domain/Programmer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/classes/basicExe/service/Data.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/classes/basicExe/service/NameListService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/classes/basicExe/service/Status.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/classes/basicExe/service/TeamException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/classes/basicExe/service/TeamService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/classes/basicExe/view/TSUtility.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/classes/basicExe/view/TeamView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/basicExe/service/NameListServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/basicTest/ArrayTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/basicTest/BasicUsageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/basicTest/ClassTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/basicTest/PrimeNumberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/basicTest/polymorphism$A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/basicTest/polymorphism$B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/basicTest/polymorphism.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/compareTest/CompareTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/compareTest/CompareTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/compareTest/Mouse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/containerTest/CollectionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/containerTest/MapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/enumannotation/EnumTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/enumannotation/Season.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/enumannotation/SeasonEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/enumannotation/annotationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/genericTest/GenericTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/iotest/BufferReaderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/iotest/FileReaderWriterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/iotest/FileTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/iotest/FindJPGFileTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/iotest/FindJPGFileTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/iotest/ListFilesTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/iotest/ObjectInputTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/iotest/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/netTest/NetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/reflectionTest/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/reflectionTest/ReflectionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/stringTest/StringBufferTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/stringTest/StringExer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/stringTest/StringTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/threadTest/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/threadTest/MyThread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/threadTest/ThreadTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/threadTest/TicketTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/threadTest/TicketWindowExt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/threadTest/TicketWindowImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/threadTest/TicketWindowLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavabaseTest/target/test-classes/com/timeTest/TimeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java复习笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../java复习笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/code/src/com/test/bean/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/code/src/com/test/dao/BaseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/code/src/com/test/dao/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/code/src/com/test/dao/CustomerDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/code/src/com/test/dao/CustomerDAOImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/code/src/com/test/util/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/code/src/images/5a4cca2b4f2dd.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/JDBC.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../DB/JDBC.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/JDBC_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DB/code/JDBC_study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/com/test/Basic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/com/test/Basic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/src/com/test/PrepareStatementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DB/code/src/com/test/PrepareStatementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/src/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../DB/code/src/jdbc.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/JavabaseTest/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,17 +27,7 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CoreJavaVolumeI/src/com/test/ClassTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -189,10 +120,16 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="724" />
     <option name="height" value="775" />
@@ -205,34 +142,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoreJavaVolumeI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoreJavaVolumeI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoreJavaVolumeI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,7 +154,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/junit/junit/4.9/junit-4.9.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavabaseTest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -425,6 +337,7 @@
       <workItem from="1585042635867" duration="3789000" />
       <workItem from="1585104134007" duration="3760000" />
       <workItem from="1585112269662" duration="4609000" />
+      <workItem from="1585287837030" duration="127000" />
     </task>
     <servers />
   </component>
@@ -461,7 +374,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123496000" />
+    <option name="totallyTimeSpent" value="123623000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -473,10 +386,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25642964" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25642964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -503,7 +415,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24960753" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -920,13 +832,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CoreJavaVolumeI/src/com/test/PrimitiveTestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreJavaVolumeI/src/com/test/PrimitiveTestTest.java" />
     <entry file="file://$PROJECT_DIR$/CoreJavaVolumeI/src/com/test/PrimitiveTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">

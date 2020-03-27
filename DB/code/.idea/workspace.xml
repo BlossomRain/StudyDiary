@@ -2,82 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb696e3d-25b1-4638-8b02-22b18bac2fa4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/test/Basic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/PrepareStatementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/CoreJavaVolumeI/CoreJavaVolumeI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/CoreJavaVolumeI/src/com/test/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/CoreJavaVolumeI/src/com/test/ClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/CoreJavaVolumeI/src/com/test/PrimitiveTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/test/java/com/Java8Test/LambdaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/test/java/com/Java8Test/StreamAPITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/test/java/com/reflectionTest/Creature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/test/java/com/reflectionTest/DynamicProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/test/java/com/reflectionTest/MyAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/test/java/com/reflectionTest/StaticProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/JavaSE.xmind" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/test/java/com/reflectionTest/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/test/java/com/reflectionTest/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/test/java/com/reflectionTest/ReflectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/test/java/com/reflectionTest/ReflectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/Singleton/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/Singleton/SingletonLazy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/Singleton/SingletonLazySync.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/domain/Architect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/domain/Designer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/domain/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/domain/Equipment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/domain/NoteBook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/domain/PC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/domain/Printer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/domain/Programmer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/service/Data.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/service/NameListService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/service/Status.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/service/TeamException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/service/TeamService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/view/TSUtility.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/classes/basicExe/view/TeamView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/basicExe/service/NameListServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/basicTest/ArrayTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/basicTest/BasicUsageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/basicTest/ClassTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/basicTest/PrimeNumberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/basicTest/polymorphism$A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/basicTest/polymorphism$B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/basicTest/polymorphism.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/compareTest/CompareTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/compareTest/CompareTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/compareTest/Mouse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/containerTest/CollectionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/containerTest/MapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/enumannotation/EnumTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/enumannotation/Season.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/enumannotation/SeasonEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/enumannotation/annotationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/genericTest/GenericTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/iotest/BufferReaderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/iotest/FileReaderWriterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/iotest/FileTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/iotest/FindJPGFileTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/iotest/FindJPGFileTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/iotest/ListFilesTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/iotest/ObjectInputTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/iotest/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/netTest/NetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/reflectionTest/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/reflectionTest/ReflectionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/stringTest/StringBufferTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/stringTest/StringExer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/stringTest/StringTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/threadTest/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/threadTest/MyThread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/threadTest/ThreadTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/threadTest/TicketTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/threadTest/TicketWindowExt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/threadTest/TicketWindowImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/threadTest/TicketWindowLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/target/test-classes/com/timeTest/TimeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/java复习笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaSE/java复习笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/bean/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/dao/BaseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/dao/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/dao/CustomerDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/dao/CustomerDAOImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/main/DataSourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/main/PrepareStatementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/main/QueryRunnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/util/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/5a4cca2b4f2dd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDBC.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC_study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBC_study/com/test/Basic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBC_study/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JDBC_study/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/main/Basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/PrepareStatementTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,12 +33,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/test/PrepareStatementTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/test/main/QueryRunnerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="334">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#testQueryRunner#0;class#QueryRunnerTest#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,6 +52,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Tag Library Descriptor" />
+        <option value="MybatisMapper" />
         <option value="Class" />
       </list>
     </option>
@@ -113,8 +67,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/java/com/Basic.java" />
-        <option value="$PROJECT_DIR$/src/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/com/test/Basic.java" />
+        <option value="$PROJECT_DIR$/src/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/com/test/dao/CustomerDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/test/bean/Customer.java" />
+        <option value="$PROJECT_DIR$/src/com/test/PrepareStatementTest.java" />
+        <option value="$PROJECT_DIR$/src/com/test/dao/CustomerDAOImplTest.java" />
+        <option value="$PROJECT_DIR$/src/com/test/dao/CustomerDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/test/dao/BaseDAO.java" />
+        <option value="$PROJECT_DIR$/src/c3p0-config.xml" />
+        <option value="$PROJECT_DIR$/src/druid.properties" />
+        <option value="$PROJECT_DIR$/src/com/test/util/JDBCUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/test/main/DataSourceTest.java" />
+        <option value="$PROJECT_DIR$/src/com/test/main/QueryRunnerTest.java" />
       </list>
     </option>
   </component>
@@ -132,8 +97,8 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="612" />
-    <option name="y" value="12" />
+    <option name="x" value="712" />
+    <option name="y" value="57" />
     <option name="width" value="724" />
     <option name="height" value="775" />
   </component>
@@ -143,6 +108,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -162,24 +128,45 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JDBC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585144752876" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.8/mysql-connector-java-5.1.8.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585300961620" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/commons-dbutils/commons-dbutils/1.7/commons-dbutils-1.7.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.test.dao" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\java\20200123\study_diary\DB\code\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -193,82 +180,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Basic.testJDBC5">
-    <configuration name="Basic.testJDBC (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.QueryRunnerTest.testQueryRunner">
+    <configuration name="CustomerDAOImplTest.getCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.*" />
+          <option name="PATTERN" value="com.test.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.Basic" />
-      <option name="METHOD_NAME" value="testJDBC" />
+      <option name="PACKAGE_NAME" value="com.test.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.test.dao.CustomerDAOImplTest" />
+      <option name="METHOD_NAME" value="getCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Basic.testJDBC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerDAOImplTest.getCustomers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java.com.*" />
+          <option name="PATTERN" value="com.test.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java.com" />
-      <option name="MAIN_CLASS_NAME" value="java.com.Basic" />
-      <option name="METHOD_NAME" value="testJDBC" />
+      <option name="PACKAGE_NAME" value="com.test.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.test.dao.CustomerDAOImplTest" />
+      <option name="METHOD_NAME" value="getCustomers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Basic.testJDBC3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerDAOImplTest.getMaxBirth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.*" />
+          <option name="PATTERN" value="com.test.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.Basic" />
-      <option name="METHOD_NAME" value="testJDBC3" />
+      <option name="PACKAGE_NAME" value="com.test.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.test.dao.CustomerDAOImplTest" />
+      <option name="METHOD_NAME" value="getMaxBirth" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Basic.testJDBC4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DataSourceTest.testC3P0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.*" />
+          <option name="PATTERN" value="com.test.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.Basic" />
-      <option name="METHOD_NAME" value="testJDBC4" />
+      <option name="PACKAGE_NAME" value="com.test.main" />
+      <option name="MAIN_CLASS_NAME" value="com.test.main.DataSourceTest" />
+      <option name="METHOD_NAME" value="testC3P0" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Basic.testJDBC5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueryRunnerTest.testQueryRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.*" />
+          <option name="PATTERN" value="com.test.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.Basic" />
-      <option name="METHOD_NAME" value="testJDBC5" />
+      <option name="PACKAGE_NAME" value="com.test.main" />
+      <option name="MAIN_CLASS_NAME" value="com.test.main.QueryRunnerTest" />
+      <option name="METHOD_NAME" value="testQueryRunner" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -276,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Basic.testJDBC5" />
-        <item itemvalue="JUnit.Basic.testJDBC4" />
-        <item itemvalue="JUnit.Basic.testJDBC3" />
-        <item itemvalue="JUnit.Basic.testJDBC (1)" />
-        <item itemvalue="JUnit.Basic.testJDBC" />
+        <item itemvalue="JUnit.QueryRunnerTest.testQueryRunner" />
+        <item itemvalue="JUnit.DataSourceTest.testC3P0" />
+        <item itemvalue="JUnit.CustomerDAOImplTest.getCustomers" />
+        <item itemvalue="JUnit.CustomerDAOImplTest.getMaxBirth" />
+        <item itemvalue="JUnit.CustomerDAOImplTest.getCount" />
       </list>
     </recent_temporary>
   </component>
@@ -295,56 +282,63 @@
       <option name="presentableId" value="Default" />
       <updated>1585140119619</updated>
       <workItem from="1585140123985" duration="3768000" />
+      <workItem from="1585216255095" duration="1674000" />
+      <workItem from="1585223674492" duration="7805000" />
+      <workItem from="1585278436232" duration="2227000" />
+      <workItem from="1585283681699" duration="4116000" />
+      <workItem from="1585288157987" duration="57000" />
+      <workItem from="1585296459619" duration="3349000" />
+      <workItem from="1585300044196" duration="1498000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Basic - 2020.03.25 at 21h 34m 25s.xml">
-      <configuration name="Basic" configurationId="JUnit" />
+    <history-entry file="CustomerDAOImplTest_getCount - 2020.03.27 at 13h 21m 25s.xml">
+      <configuration name="CustomerDAOImplTest.getCount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Basic_testJDBC - 2020.03.25 at 21h 34m 37s.xml">
-      <configuration name="Basic.testJDBC" configurationId="JUnit" />
+    <history-entry file="CustomerDAOImplTest_getMaxBirth - 2020.03.27 at 13h 21m 48s.xml">
+      <configuration name="CustomerDAOImplTest.getMaxBirth" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Basic_testJDBC_(1) - 2020.03.25 at 21h 35m 27s.xml">
-      <configuration name="Basic.testJDBC (1)" configurationId="JUnit" />
+    <history-entry file="CustomerDAOImplTest_getCustomers - 2020.03.27 at 13h 34m 17s.xml">
+      <configuration name="CustomerDAOImplTest.getCustomers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Basic_testJDBC_(1) - 2020.03.25 at 21h 37m 02s.xml">
-      <configuration name="Basic.testJDBC (1)" configurationId="JUnit" />
+    <history-entry file="DataSourceTest_testC3P0 - 2020.03.27 at 16h 21m 51s.xml">
+      <configuration name="DataSourceTest.testC3P0" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Basic_testJDBC3 - 2020.03.25 at 21h 44m 27s.xml">
-      <configuration name="Basic.testJDBC3" configurationId="JUnit" />
+    <history-entry file="DataSourceTest_testC3P0 - 2020.03.27 at 16h 25m 16s.xml">
+      <configuration name="DataSourceTest.testC3P0" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Basic_testJDBC4 - 2020.03.25 at 21h 47m 57s.xml">
-      <configuration name="Basic.testJDBC4" configurationId="JUnit" />
+    <history-entry file="DataSourceTest_testC3P0 - 2020.03.27 at 16h 25m 56s.xml">
+      <configuration name="DataSourceTest.testC3P0" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Basic_testJDBC5 - 2020.03.25 at 21h 58m 57s.xml">
-      <configuration name="Basic.testJDBC5" configurationId="JUnit" />
+    <history-entry file="DataSourceTest_testC3P0 - 2020.03.27 at 16h 31m 26s.xml">
+      <configuration name="DataSourceTest.testC3P0" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataSourceTest_testC3P0 - 2020.03.27 at 16h 31m 53s.xml">
+      <configuration name="DataSourceTest.testC3P0" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataSourceTest_testC3P0 - 2020.03.27 at 16h 59m 20s.xml">
+      <configuration name="DataSourceTest.testC3P0" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueryRunnerTest_testQueryRunner - 2020.03.27 at 17h 15m 06s.xml">
+      <configuration name="QueryRunnerTest.testQueryRunner" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3768000" />
+    <option name="totallyTimeSpent" value="24494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="JRebel" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4107413" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.4144427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="ConsoleMavenPlugin" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="JRebel Executor" />
-      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4888179" />
@@ -352,15 +346,24 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="ConsoleMavenPlugin" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3290735" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3290735" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="JRebel Executor" order="14" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,32 +377,169 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/Basic.java">
+    <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        <state relative-caret-position="44">
+          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/dao/CustomerDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#testJDBC5#0;class#Basic#0" />
-            <element signature="method#testJDBC3#0;class#Basic#0" />
-            <element signature="method#testJDBC2#0;class#Basic#0" />
-            <element signature="method#testJDBC#0;class#Basic#0" />
-            <element signature="method#testJDBC#0;class#Basic#0" />
+            <element signature="docComment;method#insert#0;class#CustomerDAO#0" />
+            <element signature="docComment;method#deleteById#0;class#CustomerDAO#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
+    <entry file="file://$PROJECT_DIR$/src/com/test/bean/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="11" selection-start-line="3" selection-end-line="3" selection-end-column="11" />
+        <state relative-caret-position="400">
+          <caret line="91" column="83" selection-start-line="91" selection-start-column="83" selection-end-line="91" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#equals#0;class#Customer#0" />
+            <element signature="method#toString#0;class#Customer#0" />
+            <element signature="method#Customer#1;class#Customer#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/PrepareStatementTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/dao/CustomerDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#insert#0;class#CustomerDAOImpl#0" />
+            <element signature="method#deleteById#0;class#CustomerDAOImpl#0" />
+            <element signature="method#update#0;class#CustomerDAOImpl#0" />
+            <element signature="method#getCount#0;class#CustomerDAOImpl#0" />
+            <element signature="method#getMaxBirth#0;class#CustomerDAOImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/dao/BaseDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#BaseDAO#0" />
+            <element signature="method#getValue#0;class#BaseDAO#0" />
+            <element signature="method#update#0;class#BaseDAO#0" />
+            <element signature="method#queryOne#0;class#BaseDAO#0" />
+            <element signature="method#queryList#0;class#BaseDAO#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/dao/CustomerDAOImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="77" column="50" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
+          <folding>
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="method#insert#0;class#CustomerDAOImplTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/main/PrepareStatementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testBatch#0;class#PrepareStatementTest#0" />
+            <element signature="method#testBlob#0;class#PrepareStatementTest#0" />
+            <element signature="method#testQueryList#0;class#PrepareStatementTest#0" />
+            <element signature="method#queryList#0;class#PrepareStatementTest#0" />
+            <element signature="method#testQueryOne#0;class#PrepareStatementTest#0" />
+            <element signature="method#queryOne#0;class#PrepareStatementTest#0" />
+            <element signature="method#testQueryForCustomers#0;class#PrepareStatementTest#0" />
+            <element signature="method#queryForCustomers#0;class#PrepareStatementTest#0" />
+            <element signature="method#update#0;class#PrepareStatementTest#0" />
+            <element signature="method#getConnn#0;class#PrepareStatementTest#0" />
+            <element signature="method#release#0;class#PrepareStatementTest#0" />
+            <element signature="method#testAdd#0;class#PrepareStatementTest#0" />
+            <element signature="method#testModify#0;class#PrepareStatementTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/main/Basic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testJDBC4#0;class#Basic#0" />
+            <element signature="method#testJDBC3#0;class#Basic#0" />
+            <element signature="method#testJDBC2#0;class#Basic#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../OpenSources/jdk1.8.0_131/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="380" selection-start-line="380" selection-end-line="380" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/druid.properties.tld" />
+    <entry file="file://$PROJECT_DIR$/src/druid.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/util/JDBCUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#JDBCUtil#0" />
+            <element signature="docComment;method#release#0;class#JDBCUtil#0" />
+            <element signature="method#release#1;class#JDBCUtil#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/main/DataSourceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/main/QueryRunnerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testQueryRunner#0;class#QueryRunnerTest#0" />
+          </folding>
         </state>
       </provider>
     </entry>
