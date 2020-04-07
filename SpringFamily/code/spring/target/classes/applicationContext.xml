@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:utils="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+    <!--spring的配置文件-->
+
+    <!--配置一个bean-->
+    <bean name="helloSpring" class="com.github.spring.beans.HelloSpring">
+        <property name="name" value="David"></property>
+    </bean>
+
+    <!--使用构造器注入配置一个bean-->
+    <bean name="person" class="com.github.spring.beans.Person">
+        <!--这里的参数顺序要对应构造器,参数类型也要精确匹配,否则可能匹配多个构造器-->
+        <constructor-arg type="java.lang.String">
+            <value><![CDATA[这里写一些特殊符号>>.<<]]></value>
+        </constructor-arg>
+        <constructor-arg type="java.lang.Integer" value="12"></constructor-arg>
+        <!--这里引用外部bean-->
+        <!--<property name="car" ref="car"></property>-->
+        <property name="car">
+            <bean class="com.github.spring.beans.Car">
+                <property name="name" value="Ford"></property>
+                <property name="color" value="blue"></property>
+            </bean>
+        </property>
+        <!--支持级联属性赋值-->
+        <property name="car.color" value="green"></property>
+
+        <property name="cars">
+            <list>
+                <ref bean="car"></ref>
+            </list>
+        </property>
+    </bean>
+
+    <bean abstract="true" id="baseCar" class="com.github.spring.beans.Car" p:name="Diao" p:color="red"></bean>
+    <bean id="car" parent="baseCar" p:name="Audi" p:color="yellow" class="com.github.spring.beans.Car"></bean>
+    <!--集合类属性引用, 共享-->
+    <utils:list id="cars">
+        <ref bean="car"></ref>
+    </utils:list>
+    <utils:map id="map">
+        <entry key="car1" value="car"></entry>
+    </utils:map>
+</beans>

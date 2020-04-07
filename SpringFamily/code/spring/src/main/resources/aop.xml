@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--测试aop 基于注解的方式-->
+    <!--配置自动扫描的包-->
+    <context:component-scan base-package="com.github.spring.beans"></context:component-scan>
+    <!--配置AOP 自动为匹配的类生成代理对象 匹配的类是@Before里面的类-->
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+
+    <!--基于xml配置的方式-->
+    <!--<beans>
+        &lt;!&ndash;配置bean&ndash;&gt;
+        <bean id="arithmeticCalculator" class="com.github.spring.beans.ArithmeticCalculatorImpl"></bean>
+        <bean class="com.github.spring.beans.LoggingAspect" id="loggingAspect"></bean>
+        <bean class="com.github.spring.beans.ValidationAspect" id="validationAspect"></bean>
+        &lt;!&ndash;配置切面(AOP)&ndash;&gt;
+        <aop:Config >
+            &lt;!&ndash;配置切入点表达式&ndash;&gt;
+            <aop:pointcut id="pointcut" expression="execution(* com.github.spring.beans.ArithmeticCalculator.*(..))"></aop:pointcut>
+            &lt;!&ndash;配置切面 通知&ndash;&gt;
+            <aop:aspect ref="loggingAspect" order="2" >
+                <aop:before method="beforeMethod" pointcut-ref="pointcut" ></aop:before>
+                <aop:after method="afterMethod" pointcut-ref="pointcut"></aop:after>
+                <aop:after-returning method="afterReturn" pointcut-ref="pointcut" returning="result"></aop:after-returning>
+            </aop:aspect>
+        </aop:Config>
+        
+    </beans>-->
+</beans>
