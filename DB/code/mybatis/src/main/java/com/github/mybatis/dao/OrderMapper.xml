@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--指定为接口的全类名-->
+<mapper namespace="com.github.mybatis.dao.OrderMapper">
+    <!--联合查询 支持级联属性 -->
+    <resultMap id="order" type="com.github.mybatis.bean.Order">
+        <id column="order_id" property="orderId" ></id>
+        <id column="create_time" property="createTime" ></id>
+        <id column="price" property="price" ></id>
+        <id column="status" property="status" ></id>
+        <!--<result column="user_id" property="user.id"></result>-->
+        <association property="user"  select="com.github.mybatis.dao.UserMapper.getUserById" column="user_id">
+            <!--<id column="user_id" property="id"></id>-->
+            <!--<result column="username" property="username"></result>-->
+            <!--<result column="password" property="password"></result>-->
+            <!--<result column="email" property="email"></result>-->
+        </association>
+    </resultMap>
+
+    <!--分步查询-->
+    <select id="getOrderById" resultMap="order"
+            parameterType="string">
+        SELECT * FROM t_order where order_id=#{id}
+    </select>
+    <!--联合查询 对应上面注释部分-->
+   <!-- <select id="getOrderById" resultMap="order"
+            parameterType="string">
+        SELECT * FROM `t_order` o,t_user u where o.user_id=u.id AND o.order_id=#{id};
+    </select>-->
+</mapper>

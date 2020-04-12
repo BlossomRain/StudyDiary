@@ -1,31 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="mybatis" />
+    </loaded-modules>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb696e3d-25b1-4638-8b02-22b18bac2fa4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/bean/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/dao/BaseDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/dao/CustomerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/dao/CustomerDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/dao/CustomerDAOImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/main/DataSourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/main/PrepareStatementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/main/QueryRunnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/util/JDBCUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/5a4cca2b4f2dd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/main/main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/src/test/test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDBC_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC_study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JDBC_study/com/test/Basic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JDBC_study/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JDBC_study/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/main/Basic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/PrepareStatementTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaSE/code/JavabaseTest/pom.xml" afterDir="false" />
+    <list default="true" id="0aa31fa7-3c04-4fcc-ac34-93dc826f015d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/JDBC_study.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBC_study/META-INF/JDBC_study.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBC_study/c3p0-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBC_study/com/test/bean/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBC_study/com/test/dao/BaseDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBC_study/com/test/dao/CustomerDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBC_study/com/test/dao/CustomerDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBC_study/com/test/dao/CustomerDAOImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBC_study/com/test/main/Basic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBC_study/com/test/main/DataSourceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBC_study/com/test/main/PrepareStatementTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBC_study/com/test/main/QueryRunnerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBC_study/com/test/util/JDBCUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBC_study/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBC_study/images/5a4cca2b4f2dd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBC_study/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c3p0-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/bean/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/dao/BaseDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/dao/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/dao/CustomerDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/dao/CustomerDAOImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/main/Basic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/main/DataSourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/main/PrepareStatementTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/main/QueryRunnerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/util/JDBCUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/5a4cca2b4f2dd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../错误笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../错误笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringFamily/Spring-Annotation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringFamily/Spring-Annotation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringFamily/code/spring/spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringFamily/code/spring/spring.iml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/mybatis/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,16 +52,54 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/test/main/QueryRunnerTest.java">
+        <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/com/github/mybatis/dao/CacheTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="70">
+              <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#testQueryRunner#0;class#QueryRunnerTest#0" />
+                <element signature="method#testFirstCache#0;class#CacheTest#0" />
+                <element signature="method#getSqlSession#0;class#CacheTest#0" />
+                <element signature="method#close#0;class#CacheTest#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/github/mybatis/dao/OrderMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/github/mybatis/dao/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="n#sql#0;n#mapper#0;n#!!top" />
+                <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+                <element signature="n#insert#0;n#mapper#0;n#!!top" />
+                <element signature="n#update#0;n#mapper#0;n#!!top" />
+                <element signature="n#select#0;n#mapper#0;n#!!top" />
+                <element signature="n#select#2;n#mapper#0;n#!!top" />
+                <element signature="n#select#3;n#mapper#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/ehcache.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="76" selection-start-line="2" selection-start-column="76" selection-end-line="2" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -52,10 +109,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Arquillian JUnit Test Class" />
-        <option value="JUnit4 Test Class" />
-        <option value="Tag Library Descriptor" />
         <option value="MybatisMapper" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -66,20 +122,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/java/com/Basic.java" />
-        <option value="$PROJECT_DIR$/src/com/test/Basic.java" />
-        <option value="$PROJECT_DIR$/src/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/com/test/dao/CustomerDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/test/bean/Customer.java" />
-        <option value="$PROJECT_DIR$/src/com/test/PrepareStatementTest.java" />
-        <option value="$PROJECT_DIR$/src/com/test/dao/CustomerDAOImplTest.java" />
-        <option value="$PROJECT_DIR$/src/com/test/dao/CustomerDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/test/dao/BaseDAO.java" />
-        <option value="$PROJECT_DIR$/src/c3p0-config.xml" />
-        <option value="$PROJECT_DIR$/src/druid.properties" />
-        <option value="$PROJECT_DIR$/src/com/test/util/JDBCUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/test/main/DataSourceTest.java" />
-        <option value="$PROJECT_DIR$/src/com/test/main/QueryRunnerTest.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/test/java/com/github/mybatis/UserTest.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/github/mybatis/User.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/github/mybatis/bean/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/resources/log4j.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/mybatis/src/test/java/com/github/mybatis/HelloWorldTest.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/resources/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/resources/com.github.mybatis.dao/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/test/java/com/github/mybatis/dao/OrderMapperTest.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/github/mybatis/dao/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/github/mybatis/dao/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/github/mybatis/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/github/mybatis/bean/Order.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/github/mybatis/bean/User.java" />
+        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/github/mybatis/dao/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/resources/ehcache.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/test/java/com/github/mybatis/dao/CacheTest.java" />
       </list>
     </option>
   </component>
@@ -87,85 +148,152 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\Program Files\IntelliJ IDEA 2018.3.6\maven_repo" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../OpenSources/apache-maven-3.6.3" />
         <option name="pluginUpdatePolicy" value="DO_NOT_UPDATE" />
         <option name="userSettingsFile" value="E:\Java\OpenSources\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mybatis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mybatis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="712" />
-    <option name="y" value="57" />
-    <option name="width" value="724" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
     <option name="height" value="775" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="JDBC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JDBC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JDBC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JDBC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585300961620" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586492440493" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/commons-dbutils/commons-dbutils/1.7/commons-dbutils-1.7.jar!/" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/mybatis/src/main/java/com/github/mybatis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../code_" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.test.dao" />
+      <recent name="com.github.mybatis.dao" />
+      <recent name="com.github.mybatis" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.github.mybatis.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\java\20200123\study_diary\DB\code\mybatis\src\main\resources\com.github.mybatis.dao" />
+      <recent name="E:\Java\java\20200123\study_diary\DB\code\jdbc\src" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Java\java\20200123\study_diary\DB\code\src" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java\java\20200123\study_diary\DB\code\mybatis\src\main\java\com\github\mybatis\dao" />
+      <recent name="E:\Java\java\20200123\study_diary\DB\code\mybatis\src\main\resources\com.github.mybatis.dao" />
+      <recent name="E:\Java\java\20200123\study_diary\DB\code\mybatis\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -180,94 +308,141 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QueryRunnerTest.testQueryRunner">
-    <configuration name="CustomerDAOImplTest.getCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC_study" />
+  <component name="RunManager" selected="JUnit.CacheTest.testSecondLevelCache">
+    <configuration name="CacheTest.testFirstCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.dao.*" />
+          <option name="PATTERN" value="com.github.mybatis.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.test.dao.CustomerDAOImplTest" />
-      <option name="METHOD_NAME" value="getCount" />
+      <option name="PACKAGE_NAME" value="com.github.mybatis.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.github.mybatis.dao.CacheTest" />
+      <option name="METHOD_NAME" value="testFirstCache" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerDAOImplTest.getCustomers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC_study" />
+    <configuration name="CacheTest.testFirstLevelCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.dao.*" />
+          <option name="PATTERN" value="com.github.mybatis.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.test.dao.CustomerDAOImplTest" />
-      <option name="METHOD_NAME" value="getCustomers" />
+      <option name="PACKAGE_NAME" value="com.github.mybatis.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.github.mybatis.dao.CacheTest" />
+      <option name="METHOD_NAME" value="testFirstLevelCache" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerDAOImplTest.getMaxBirth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC_study" />
+    <configuration name="CacheTest.testSecondLevelCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.dao.*" />
+          <option name="PATTERN" value="com.github.mybatis.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.test.dao.CustomerDAOImplTest" />
-      <option name="METHOD_NAME" value="getMaxBirth" />
+      <option name="PACKAGE_NAME" value="com.github.mybatis.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.github.mybatis.dao.CacheTest" />
+      <option name="METHOD_NAME" value="testSecondLevelCache" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataSourceTest.testC3P0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC_study" />
+    <configuration name="HelloWorldTest.testInterfaceMapping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.main.*" />
+          <option name="PATTERN" value="com.github.mybatis.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test.main" />
-      <option name="MAIN_CLASS_NAME" value="com.test.main.DataSourceTest" />
-      <option name="METHOD_NAME" value="testC3P0" />
+      <option name="PACKAGE_NAME" value="com.github.mybatis.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.github.mybatis.dao.HelloWorldTest" />
+      <option name="METHOD_NAME" value="testInterfaceMapping" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryRunnerTest.testQueryRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC_study" />
+    <configuration name="OrderMapperTest.testResultMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.main.*" />
+          <option name="PATTERN" value="com.github.mybatis.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test.main" />
-      <option name="MAIN_CLASS_NAME" value="com.test.main.QueryRunnerTest" />
-      <option name="METHOD_NAME" value="testQueryRunner" />
+      <option name="PACKAGE_NAME" value="com.github.mybatis.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.github.mybatis.dao.OrderMapperTest" />
+      <option name="METHOD_NAME" value="testResultMap" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="jdbc" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="jdbc" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QueryRunnerTest.testQueryRunner" />
-        <item itemvalue="JUnit.DataSourceTest.testC3P0" />
-        <item itemvalue="JUnit.CustomerDAOImplTest.getCustomers" />
-        <item itemvalue="JUnit.CustomerDAOImplTest.getMaxBirth" />
-        <item itemvalue="JUnit.CustomerDAOImplTest.getCount" />
+        <item itemvalue="JUnit.CacheTest.testSecondLevelCache" />
+        <item itemvalue="JUnit.CacheTest.testFirstLevelCache" />
+        <item itemvalue="JUnit.CacheTest.testFirstCache" />
+        <item itemvalue="JUnit.OrderMapperTest.testResultMap" />
+        <item itemvalue="JUnit.HelloWorldTest.testInterfaceMapping" />
       </list>
     </recent_temporary>
   </component>
@@ -276,269 +451,313 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cb696e3d-25b1-4638-8b02-22b18bac2fa4" name="Default Changelist" comment="" />
-      <created>1585140119619</created>
+      <changelist id="0aa31fa7-3c04-4fcc-ac34-93dc826f015d" name="Default Changelist" comment="" />
+      <created>1586350761848</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585140119619</updated>
-      <workItem from="1585140123985" duration="3768000" />
-      <workItem from="1585216255095" duration="1674000" />
-      <workItem from="1585223674492" duration="7805000" />
-      <workItem from="1585278436232" duration="2227000" />
-      <workItem from="1585283681699" duration="4116000" />
-      <workItem from="1585288157987" duration="57000" />
-      <workItem from="1585296459619" duration="3349000" />
-      <workItem from="1585300044196" duration="1498000" />
+      <updated>1586350761848</updated>
+      <workItem from="1586350763950" duration="107000" />
+      <workItem from="1586350915110" duration="6927000" />
+      <workItem from="1586411450728" duration="483000" />
+      <workItem from="1586433472787" duration="10336000" />
+      <workItem from="1586482802087" duration="9535000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomerDAOImplTest_getCount - 2020.03.27 at 13h 21m 25s.xml">
-      <configuration name="CustomerDAOImplTest.getCount" configurationId="JUnit" />
+    <history-entry file="CacheTest_testFirstCache - 2020.04.10 at 11h 03m 10s.xml">
+      <configuration name="CacheTest.testFirstCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerDAOImplTest_getMaxBirth - 2020.03.27 at 13h 21m 48s.xml">
-      <configuration name="CustomerDAOImplTest.getMaxBirth" configurationId="JUnit" />
+    <history-entry file="CacheTest_testFirstCache - 2020.04.10 at 11h 04m 29s.xml">
+      <configuration name="CacheTest.testFirstCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerDAOImplTest_getCustomers - 2020.03.27 at 13h 34m 17s.xml">
-      <configuration name="CustomerDAOImplTest.getCustomers" configurationId="JUnit" />
+    <history-entry file="CacheTest_testFirstLevelCache - 2020.04.10 at 11h 04m 53s.xml">
+      <configuration name="CacheTest.testFirstLevelCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataSourceTest_testC3P0 - 2020.03.27 at 16h 21m 51s.xml">
-      <configuration name="DataSourceTest.testC3P0" configurationId="JUnit" />
+    <history-entry file="CacheTest_testFirstLevelCache - 2020.04.10 at 11h 06m 42s.xml">
+      <configuration name="CacheTest.testFirstLevelCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataSourceTest_testC3P0 - 2020.03.27 at 16h 25m 16s.xml">
-      <configuration name="DataSourceTest.testC3P0" configurationId="JUnit" />
+    <history-entry file="CacheTest_testSecondLevelCache - 2020.04.10 at 11h 34m 09s.xml">
+      <configuration name="CacheTest.testSecondLevelCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataSourceTest_testC3P0 - 2020.03.27 at 16h 25m 56s.xml">
-      <configuration name="DataSourceTest.testC3P0" configurationId="JUnit" />
+    <history-entry file="CacheTest_testSecondLevelCache - 2020.04.10 at 11h 37m 30s.xml">
+      <configuration name="CacheTest.testSecondLevelCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataSourceTest_testC3P0 - 2020.03.27 at 16h 31m 26s.xml">
-      <configuration name="DataSourceTest.testC3P0" configurationId="JUnit" />
+    <history-entry file="CacheTest_testSecondLevelCache - 2020.04.10 at 11h 39m 49s.xml">
+      <configuration name="CacheTest.testSecondLevelCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataSourceTest_testC3P0 - 2020.03.27 at 16h 31m 53s.xml">
-      <configuration name="DataSourceTest.testC3P0" configurationId="JUnit" />
+    <history-entry file="CacheTest_testSecondLevelCache - 2020.04.10 at 11h 43m 20s.xml">
+      <configuration name="CacheTest.testSecondLevelCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataSourceTest_testC3P0 - 2020.03.27 at 16h 59m 20s.xml">
-      <configuration name="DataSourceTest.testC3P0" configurationId="JUnit" />
+    <history-entry file="CacheTest_testSecondLevelCache - 2020.04.10 at 12h 19m 05s.xml">
+      <configuration name="CacheTest.testSecondLevelCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryRunnerTest_testQueryRunner - 2020.03.27 at 17h 15m 06s.xml">
-      <configuration name="QueryRunnerTest.testQueryRunner" configurationId="JUnit" />
+    <history-entry file="CacheTest_testSecondLevelCache - 2020.04.10 at 12h 20m 28s.xml">
+      <configuration name="CacheTest.testSecondLevelCache" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24494000" />
+    <option name="totallyTimeSpent" value="27388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.4144427" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28139183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="JRebel" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4888179" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="ConsoleMavenPlugin" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3290735" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3290735" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Designer" order="7" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3290735" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.6805112" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3290735" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="ConsoleMavenPlugin" order="12" weight="0.3290735" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="JRebel Executor" order="14" />
-      <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.3290735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Designer" order="7" />
+      <window_info anchor="bottom" id="JRebel Executor" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3290735" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="ConsoleMavenPlugin" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnloadedModulesList">
+    <module name="jdbc" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.8/mysql-connector-java-5.1.8.jar!/com/mysql/jdbc/Driver.class">
+    <entry file="file://$PROJECT_DIR$/jdbc/src/com/test/main/DataSourceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/dao/CustomerDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+        <state relative-caret-position="-22">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;method#insert#0;class#CustomerDAO#0" />
-            <element signature="docComment;method#deleteById#0;class#CustomerDAO#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/bean/Customer.java">
+    <entry file="uml://MAVEN/com.github.study:mybatis:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.github.study:mybatis:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.github.study:mybatis:1.0-SNAPSHOT</node>
+            <node x="" y="">org.mybatis:mybatis:jar:3.4.5</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.45</node>
+            <node x="" y="">log4j:log4j:jar:1.2.17</node>
+            <node x="" y="">junit:junit:jar:4.12</node>
+            <node x="" y="">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="221.0" y="95.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/log4j.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="91" column="83" selection-start-line="91" selection-start-column="83" selection-end-line="91" selection-end-column="83" />
+        <state relative-caret-position="444">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/binding/MapperMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/github/mybatis/dao/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/com/github/mybatis/dao/OrderMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#equals#0;class#Customer#0" />
-            <element signature="method#toString#0;class#Customer#0" />
-            <element signature="method#Customer#1;class#Customer#0" />
+            <element signature="method#getSqlSession#0;class#OrderMapperTest#0" />
+            <element signature="method#close#0;class#OrderMapperTest#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/dao/CustomerDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#insert#0;class#CustomerDAOImpl#0" />
-            <element signature="method#deleteById#0;class#CustomerDAOImpl#0" />
-            <element signature="method#update#0;class#CustomerDAOImpl#0" />
-            <element signature="method#getCount#0;class#CustomerDAOImpl#0" />
-            <element signature="method#getMaxBirth#0;class#CustomerDAOImpl#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/dao/BaseDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="initializer##0;class#BaseDAO#0" />
-            <element signature="method#getValue#0;class#BaseDAO#0" />
-            <element signature="method#update#0;class#BaseDAO#0" />
-            <element signature="method#queryOne#0;class#BaseDAO#0" />
-            <element signature="method#queryList#0;class#BaseDAO#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/dao/CustomerDAOImplTest.java">
+    <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/com/github/mybatis/dao/HelloWorldTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
-          <caret line="77" column="50" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
-          <folding>
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="method#insert#0;class#CustomerDAOImplTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/main/PrepareStatementTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <caret line="75" column="5" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="75" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#testBatch#0;class#PrepareStatementTest#0" />
-            <element signature="method#testBlob#0;class#PrepareStatementTest#0" />
-            <element signature="method#testQueryList#0;class#PrepareStatementTest#0" />
-            <element signature="method#queryList#0;class#PrepareStatementTest#0" />
-            <element signature="method#testQueryOne#0;class#PrepareStatementTest#0" />
-            <element signature="method#queryOne#0;class#PrepareStatementTest#0" />
-            <element signature="method#testQueryForCustomers#0;class#PrepareStatementTest#0" />
-            <element signature="method#queryForCustomers#0;class#PrepareStatementTest#0" />
-            <element signature="method#update#0;class#PrepareStatementTest#0" />
-            <element signature="method#getConnn#0;class#PrepareStatementTest#0" />
-            <element signature="method#release#0;class#PrepareStatementTest#0" />
-            <element signature="method#testAdd#0;class#PrepareStatementTest#0" />
-            <element signature="method#testModify#0;class#PrepareStatementTest#0" />
+            <element signature="method#testInterfaceMapping#0;class#HelloWorldTest#0" />
+            <element signature="method#testHelloWorld#0;class#HelloWorldTest#0" />
+            <element signature="method#getSqlSession#0;class#HelloWorldTest#0" />
+            <element signature="method#close#0;class#HelloWorldTest#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/main/Basic.java">
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+          <folding>
+            <element signature="n#typeAliases#0;n#configuration#0;n#!!top" />
+            <element signature="n#environments#0;n#configuration#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/github/mybatis/dao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#testJDBC4#0;class#Basic#0" />
-            <element signature="method#testJDBC3#0;class#Basic#0" />
-            <element signature="method#testJDBC2#0;class#Basic#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../OpenSources/jdk1.8.0_131/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="380" selection-start-line="380" selection-end-line="380" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/github/mybatis/bean/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="58" />
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/druid.properties.tld" />
-    <entry file="file://$PROJECT_DIR$/src/druid.properties">
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/github/mybatis/bean/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/github/mybatis/dao/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/github/mybatis/dao/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="n#sql#0;n#mapper#0;n#!!top" />
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" />
+            <element signature="n#select#3;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/ehcache.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" column="76" selection-start-line="2" selection-start-column="76" selection-end-line="2" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/util/JDBCUtil.java">
+    <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/com/github/mybatis/dao/CacheTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+        <state relative-caret-position="70">
+          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="initializer##0;class#JDBCUtil#0" />
-            <element signature="docComment;method#release#0;class#JDBCUtil#0" />
-            <element signature="method#release#1;class#JDBCUtil#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/main/DataSourceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/main/QueryRunnerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#testQueryRunner#0;class#QueryRunnerTest#0" />
+            <element signature="method#testFirstCache#0;class#CacheTest#0" />
+            <element signature="method#getSqlSession#0;class#CacheTest#0" />
+            <element signature="method#close#0;class#CacheTest#0" />
           </folding>
         </state>
       </provider>
@@ -606,7 +825,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>JDBC_study</last-edited>
+          <last-edited>mybatis</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

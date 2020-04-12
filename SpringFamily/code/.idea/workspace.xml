@@ -1,59 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ssm_crud:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
-      <module name="spring" />
+      <module name="ssm_crud" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c994b83a-55f4-4a07-89b4-7171eb42bc0b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../MySpring/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/MySpring.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/src/main/java/com/github/spring/beans/ArithmeticCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/src/main/java/com/github/spring/beans/ArithmeticCalculatorImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/src/main/java/com/github/spring/beans/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/src/main/java/com/github/spring/beans/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/src/main/java/com/github/spring/beans/HelloSpring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/src/main/java/com/github/spring/beans/LoggingAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/src/main/java/com/github/spring/beans/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/src/main/java/com/github/spring/beans/ValidationAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/src/main/resources/annotation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/src/main/resources/aop.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/src/main/resources/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/src/main/resources/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/src/main/resources/jdbc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/src/test/java/com/github/spring/beans/AOPTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/src/test/java/com/github/spring/beans/HelloSpringTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/src/test/java/com/github/spring/beans/JdbcTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/src/test/java/com/github/spring/beans/PersonTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/target/classes/META-INF/MySpring.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/target/classes/annotation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/target/classes/aop.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/target/classes/com/github/spring/beans/ArithmeticCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/target/classes/com/github/spring/beans/ArithmeticCalculatorImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/target/classes/com/github/spring/beans/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/target/classes/com/github/spring/beans/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/target/classes/com/github/spring/beans/HelloSpring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/target/classes/com/github/spring/beans/LoggingAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/target/classes/com/github/spring/beans/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/target/classes/com/github/spring/beans/ValidationAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/target/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/target/classes/jdbc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/target/test-classes/com/github/spring/beans/AOPTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/target/test-classes/com/github/spring/beans/HelloSpringTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/target/test-classes/com/github/spring/beans/JdbcTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySpring/target/test-classes/com/github/spring/beans/PersonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_study.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/JDBC_study.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/META-INF/JDBC_study.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/c3p0-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/com/test/bean/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/com/test/dao/BaseDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/com/test/dao/CustomerDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/com/test/dao/CustomerDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/com/test/dao/CustomerDAOImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/com/test/main/Basic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/com/test/main/DataSourceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/com/test/main/PrepareStatementTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/com/test/main/QueryRunnerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/com/test/util/JDBCUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/images/5a4cca2b4f2dd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/src/c3p0-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/src/com/test/bean/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/src/com/test/dao/BaseDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/src/com/test/dao/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/src/com/test/dao/CustomerDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/src/com/test/dao/CustomerDAOImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/src/com/test/main/Basic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/src/com/test/main/DataSourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/src/com/test/main/PrepareStatementTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/src/com/test/main/QueryRunnerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/src/com/test/util/JDBCUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/src/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/src/images/5a4cca2b4f2dd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/code/src/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/错误笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../DB/错误笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring-Annotation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-Annotation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/test/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/bean/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/bean/Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/bean/ColorFactoryBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/bean/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/bean/Red.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/condition/ColorImportSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/condition/WindowsCondition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/config/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/config/MyTypeFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/controller/BookController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/repogitory/BookDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/service/BookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/beans/ArithmeticCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/beans/ArithmeticCalculatorImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/beans/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/beans/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/beans/HelloSpring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/beans/LoggingAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/beans/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/beans/ValidationAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/tx/BookShopDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/tx/BookShopDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/tx/BookShopService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/tx/BookShopServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/tx/BookStockException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/tx/Cashier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/tx/CashierImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/tx/SpringTransactionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/tx/UserAccountException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/test-classes/com/github/spring/annotation/config/ConfigTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/test-classes/com/github/spring/beans/AOPTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/test-classes/com/github/spring/beans/HelloSpringTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/test-classes/com/github/spring/beans/JdbcTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/test-classes/com/github/spring/beans/PersonTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spring/target/" />
+    <ignored path="$PROJECT_DIR$/ssm_crud/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,20 +91,67 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="222" column="36" selection-start-line="222" selection-start-column="36" selection-end-line="222" selection-end-column="57" />
+              <folding>
+                <element signature="e#65#225#0#JSP" />
+                <element signature="e#310#391#0#JSP" />
+                <element signature="e#418#491#0#JSP" />
+                <element signature="e#1023#1087#0#HTML" />
+                <element signature="e#1120#1576#0#HTML" />
+                <element signature="e#1638#3111#0#HTML" />
+                <element signature="e#3171#3443#0#HTML" />
+                <element signature="e#3503#5635#0#HTML" />
+                <element signature="e#6741#7203#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/controller/BookController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getSales#0;class#BookController#0" />
+                <element signature="method#getBooksWithJson#0;class#BookController#0" />
+                <element signature="method#getBooks#0;class#BookController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
+        <option value="Tag Library Descriptor" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>getP</find>
+      <find>finishBean</find>
+      <find>close</find>
+      <find>(/\*([^*]|[\r\n]|(\*+([^*/]|[\r\n])))*\*+/|[ \t]*//.*)</find>
+      <find>mysql</find>
     </findStrings>
+    <replaceStrings>
+      <replace>\n</replace>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -95,8 +172,45 @@
         <option value="$PROJECT_DIR$/spring/src/test/java/com/github/spring/annotation/config/ConfigTest.java" />
         <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/bean/Car.java" />
         <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/config/Config.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/aop/MathCalculator.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/aop/LoggingAspect.java" />
+        <option value="$PROJECT_DIR$/spring/src/test/java/com/github/spring/annotation/config/AOPConfigTest.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/config/AOPConfig.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/config/TxConfig.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/extension/BeanFactoryPostProcessorDemo.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/config/ExtensionConfig.java" />
+        <option value="$PROJECT_DIR$/spring/src/test/java/com/github/spring/annotation/config/ExtensionConfigTest.java" />
+        <option value="$PROJECT_DIR$/ssm_crud/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/bean/controller/Book.java" />
+        <option value="$PROJECT_DIR$/ssm_crud/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml" />
+        <option value="$PROJECT_DIR$/ssm_crud/src/main/resources/mybatis-config.tld" />
+        <option value="$PROJECT_DIR$/ssm_crud/MBG.xml" />
+        <option value="$PROJECT_DIR$/ssm_crud/src/MBG.xml" />
+        <option value="$PROJECT_DIR$/ssm_crud/src/main/resources/MBG.xml" />
+        <option value="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/dao/BookMapper.java" />
+        <option value="$PROJECT_DIR$/ssm_crud/src/test/MGBTest.java" />
+        <option value="$PROJECT_DIR$/ssm_crud/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/bean/Book.java" />
+        <option value="$PROJECT_DIR$/ssm_crud/src/main/resources/applicatonContext.xml" />
+        <option value="$PROJECT_DIR$/ssm_crud/src/test/com/github/ssm/dao/BookMapperTest.java" />
+        <option value="$PROJECT_DIR$/ssm_crud/src/test/com/github/ssm/controller/BookControllerTest.java" />
+        <option value="$PROJECT_DIR$/ssm_crud/src/main/webapp/WEB-INF/views/list.jsp" />
+        <option value="$PROJECT_DIR$/ssm_crud/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/bean/Msg.java" />
+        <option value="$PROJECT_DIR$/ssm_crud/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/service/BookService.java" />
+        <option value="$PROJECT_DIR$/ssm_crud/src/main/resources/mapper/BookMapper.xml" />
+        <option value="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/controller/BookController.java" />
+        <option value="$PROJECT_DIR$/ssm_crud/src/main/webapp/index.jsp" />
       </list>
     </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -112,11 +226,33 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm_crud Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm_crud Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm_crud Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
+    <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="775" />
   </component>
@@ -128,90 +264,104 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_crud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_crud" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_crud" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_crud" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_crud" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_crud" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586266812529" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586614476285" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../code_1/MySpring" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring/spring.iml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.github.ssm.controller" />
+      <recent name="com.github.ssm.dao" />
       <recent name="com.github.spring.annotation.config" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\ssm_crud\src\main\resources" />
+      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\ssm_crud\src" />
+      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\ssm_crud\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.github.ssm" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\ssm_crud\src\main\java" />
+      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\ssm_crud\src\main\webapp\static\js" />
+      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\ssm_crud\src\main\webapp\static" />
       <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\spring" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.github.ssm.service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -226,39 +376,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConfigTest.testConditional">
-    <configuration name="ConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.spring.annotation.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.spring.annotation.config" />
-      <option name="MAIN_CLASS_NAME" value="com.github.spring.annotation.config.ConfigTest" />
-      <option name="TEST_OBJECT" value="class" />
+  <component name="RunManager" selected="Tomcat Server.ssm_crud">
+    <configuration name="MGBTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MGBTest" />
+      <module name="ssm_crud" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigTest.person" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring" />
+    <configuration name="BookControllerTest.getBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm_crud" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.spring.annotation.config.*" />
+          <option name="PATTERN" value="com.github.ssm.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.github.spring.annotation.config" />
-      <option name="MAIN_CLASS_NAME" value="com.github.spring.annotation.config.ConfigTest" />
-      <option name="METHOD_NAME" value="person" />
+      <option name="PACKAGE_NAME" value="com.github.ssm.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.github.ssm.controller.BookControllerTest" />
+      <option name="METHOD_NAME" value="getBooks" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigTest.testConditional" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookMapperTest.testCRUD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.ssm.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.ssm.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.github.ssm.dao.BookMapperTest" />
+      <option name="METHOD_NAME" value="testCRUD" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExtensionConfigTest.testBeanFactoryPostProcessor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring" />
       <extension name="coverage">
         <pattern>
@@ -267,52 +425,208 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.github.spring.annotation.config" />
-      <option name="MAIN_CLASS_NAME" value="com.github.spring.annotation.config.ConfigTest" />
-      <option name="METHOD_NAME" value="testConditional" />
+      <option name="MAIN_CLASS_NAME" value="com.github.spring.annotation.config.ExtensionConfigTest" />
+      <option name="METHOD_NAME" value="testBeanFactoryPostProcessor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigTest.testPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.spring.annotation.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.spring.annotation.config" />
-      <option name="MAIN_CLASS_NAME" value="com.github.spring.annotation.config.ConfigTest" />
-      <option name="METHOD_NAME" value="testPerson" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigTest.testScope" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.spring.annotation.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.spring.annotation.config" />
-      <option name="MAIN_CLASS_NAME" value="com.github.spring.annotation.config.ConfigTest" />
-      <option name="METHOD_NAME" value="testScope" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ssm_crud [mybatis-generator:generate]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/ssm_crud" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="ssm_crud" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.34" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="ssm_crud:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ssm_crud" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_code_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53846" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="53847" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm_crud:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MGBTest" />
+      <item itemvalue="JUnit.ExtensionConfigTest.testBeanFactoryPostProcessor" />
+      <item itemvalue="JUnit.BookMapperTest.testCRUD" />
+      <item itemvalue="JUnit.BookControllerTest.getBooks" />
+      <item itemvalue="Maven.ssm_crud [mybatis-generator:generate]" />
+      <item itemvalue="Tomcat Server.ssm_crud" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConfigTest.testConditional" />
-        <item itemvalue="JUnit.ConfigTest" />
-        <item itemvalue="JUnit.ConfigTest.testScope" />
-        <item itemvalue="JUnit.ConfigTest.testPerson" />
-        <item itemvalue="JUnit.ConfigTest.person" />
+        <item itemvalue="JUnit.BookControllerTest.getBooks" />
+        <item itemvalue="JUnit.BookMapperTest.testCRUD" />
+        <item itemvalue="Maven.ssm_crud [mybatis-generator:generate]" />
+        <item itemvalue="Application.MGBTest" />
+        <item itemvalue="JUnit.ExtensionConfigTest.testBeanFactoryPostProcessor" />
       </list>
     </recent_temporary>
   </component>
@@ -328,48 +642,60 @@
       <updated>1586250083336</updated>
       <workItem from="1586250086418" duration="1802000" />
       <workItem from="1586260031983" duration="7343000" />
+      <workItem from="1586269332437" duration="697000" />
+      <workItem from="1586311899828" duration="13851000" />
+      <workItem from="1586497042545" duration="8846000" />
+      <workItem from="1586518530926" duration="8709000" />
+      <workItem from="1586528402226" duration="3141000" />
+      <workItem from="1586570885067" duration="197000" />
+      <workItem from="1586571476785" duration="6059000" />
+      <workItem from="1586578806688" duration="1766000" />
+      <workItem from="1586580768737" duration="16732000" />
+      <workItem from="1586614607440" duration="104000" />
+      <workItem from="1586615419474" duration="874000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConfigTest_testPerson - 2020.04.07 at 19h 49m 36s.xml">
-      <configuration name="ConfigTest.testPerson" configurationId="JUnit" />
+    <history-entry file="ExtensionConfigTest_testBeanFactoryPostProcessor - 2020.04.08 at 15h 56m 25s.xml">
+      <configuration name="ExtensionConfigTest.testBeanFactoryPostProcessor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfigTest_testPerson - 2020.04.07 at 19h 52m 10s.xml">
-      <configuration name="ConfigTest.testPerson" configurationId="JUnit" />
+    <history-entry file="ExtensionConfigTest_testBeanFactoryPostProcessor - 2020.04.08 at 15h 57m 36s.xml">
+      <configuration name="ExtensionConfigTest.testBeanFactoryPostProcessor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfigTest_testPerson - 2020.04.07 at 20h 19m 08s.xml">
-      <configuration name="ConfigTest.testPerson" configurationId="JUnit" />
+    <history-entry file="BookMapperTest_testCRUD - 2020.04.11 at 10h 37m 39s.xml">
+      <configuration name="BookMapperTest.testCRUD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfigTest_testScope - 2020.04.07 at 20h 32m 20s.xml">
-      <configuration name="ConfigTest.testScope" configurationId="JUnit" />
+    <history-entry file="BookMapperTest_testCRUD - 2020.04.11 at 10h 39m 02s.xml">
+      <configuration name="BookMapperTest.testCRUD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfigTest_testConditional - 2020.04.07 at 20h 44m 50s.xml">
-      <configuration name="ConfigTest.testConditional" configurationId="JUnit" />
+    <history-entry file="BookMapperTest_testCRUD - 2020.04.11 at 10h 43m 43s.xml">
+      <configuration name="BookMapperTest.testCRUD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfigTest_testConditional - 2020.04.07 at 20h 53m 32s.xml">
-      <configuration name="ConfigTest.testConditional" configurationId="JUnit" />
+    <history-entry file="BookMapperTest_testCRUD - 2020.04.11 at 10h 45m 30s.xml">
+      <configuration name="BookMapperTest.testCRUD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfigTest_testConditional - 2020.04.07 at 20h 54m 16s.xml">
-      <configuration name="ConfigTest.testConditional" configurationId="JUnit" />
+    <history-entry file="BookMapperTest_testCRUD - 2020.04.11 at 10h 46m 30s.xml">
+      <configuration name="BookMapperTest.testCRUD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfigTest_testConditional - 2020.04.07 at 21h 22m 50s.xml">
-      <configuration name="ConfigTest.testConditional" configurationId="JUnit" />
+    <history-entry file="BookControllerTest_getBooks - 2020.04.11 at 11h 33m 22s.xml">
+      <configuration name="BookControllerTest.getBooks" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfigTest - 2020.04.07 at 21h 28m 58s.xml">
-      <configuration name="ConfigTest" configurationId="JUnit" />
+    <history-entry file="BookControllerTest_getBooks - 2020.04.11 at 11h 33m 47s.xml">
+      <configuration name="BookControllerTest.getBooks" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfigTest_testConditional - 2020.04.07 at 21h 30m 09s.xml">
-      <configuration name="ConfigTest.testConditional" configurationId="JUnit" />
+    <history-entry file="BookControllerTest_getBooks - 2020.04.11 at 11h 36m 23s.xml">
+      <configuration name="BookControllerTest.getBooks" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9145000" />
+    <option name="totallyTimeSpent" value="70121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.32747602" weight="0.2602118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -377,293 +703,692 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="Web" order="8" side_tool="true" />
+      <window_info id="Web" order="8" sideWeight="0.672524" side_tool="true" weight="0.2602118" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3290735" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.9009585" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3288364" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.7172524" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39969134" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3290735" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.7060703" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="ConsoleMavenPlugin" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.45846644" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50226927" side_tool="true" weight="0.7172524" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
       <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="17" />
+      <window_info anchor="bottom" id="Messages" order="17" sideWeight="0.49924356" weight="0.3290735" />
+      <window_info anchor="bottom" id="Application Servers" order="18" sideWeight="0.49924356" weight="0.3290735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.30786687" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" x="0" y="0" width="295" height="584" id="Documentation" order="9" side_tool="true" weight="0.32980332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="UnloadedModulesList">
+    <module name="spring" />
     <module name="spring-mvc" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring/src/main/resources/annotation.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.1.1.RELEASE/spring-tx-4.1.1.RELEASE-sources.jar!/org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="664">
+          <caret line="58" column="71" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/config/TxConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/bean/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar!/org/springframework/context/annotation/Bean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/service/BookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/controller/BookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/repogitory/BookDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/annotation/FilterType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/config/MyTypeFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+        <state relative-caret-position="422">
+          <caret line="42" column="37" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#dataSource#0;class#TxConfig#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/annotation/Scope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/config/ConfigurableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE-sources.jar!/org/springframework/beans/factory/config/ConfigurableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="63" column="39" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE-sources.jar!/org/springframework/core/env/ConfigurableEnvironment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="138" column="66" selection-start-line="138" selection-start-column="62" selection-end-line="138" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar!/org/springframework/core/env/ConfigurableEnvironment.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="172" column="29" selection-start-line="172" selection-start-column="29" selection-end-line="172" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/bean/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/condition/WindowsCondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/annotation/ImportSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/bean/Red.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/condition/ColorImportSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/annotation/ImportBeanDefinitionRegistrar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/annotation/Import.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="56" column="65" selection-start-line="56" selection-start-column="65" selection-end-line="56" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/bean/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="330">
           <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
           <folding>
             <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/test/java/com/github/spring/annotation/config/ConfigTest.java">
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/config/ExtensionConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="method#testConditional#0;class#ConfigTest#0" />
-            <element signature="method#testScope#0;class#ConfigTest#0" />
-            <element signature="method#testPerson#0;class#ConfigTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/bean/ColorFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding>
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/config/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        <state relative-caret-position="396">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
-            <element signature="e#1383#1384#0" expanded="true" />
-            <element signature="e#1593#1594#0" expanded="true" />
-            <element signature="e#1707#1708#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/annotation/Bean.java">
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/extension/BeanFactoryPostProcessorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="280" column="14" selection-start-line="280" selection-start-column="14" selection-end-line="280" selection-end-column="62" />
+        <state relative-caret-position="246">
+          <caret line="14" column="64" lean-forward="true" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../OpenSources/jdk1.8.0_131/src.zip!/javax/annotation/PreDestroy.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistryPostProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="72" column="33" lean-forward="true" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
+        <state relative-caret-position="191">
+          <caret line="32" column="72" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../OpenSources/jdk1.8.0_131/src.zip!/javax/annotation/PostConstruct.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanFactoryPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/ApplicationEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/ApplicationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="35" column="54" lean-forward="true" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/event/ApplicationEventMulticaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="83" column="9" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/ApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/LifecycleProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="999" column="48" selection-start-line="999" selection-start-column="48" selection-end-line="999" selection-end-column="48" />
+          <folding>
+            <element signature="e#13457#13458#0" expanded="true" />
+            <element signature="e#13489#13490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="80" column="11" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/test/java/com/github/spring/annotation/config/ExtensionConfigTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
-          <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="35" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanPostProcessor.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/event/EventListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <caret line="63" column="31" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/event/EventListenerMethodProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="53" column="67" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE-sources.jar!/org/springframework/beans/factory/SmartInitializingSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="55" column="36" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/java/applicationContext.xml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.5.RELEASE/spring-web-5.2.5.RELEASE.jar!/org/springframework/web/filter/CharacterEncodingFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.5.RELEASE/spring-web-5.2.5.RELEASE-sources.jar!/org/springframework/web/context/ContextLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-130">
+          <caret line="260" column="33" selection-start-line="260" selection-start-column="33" selection-end-line="260" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.5.RELEASE/spring-web-5.2.5.RELEASE-sources.jar!/org/springframework/web/context/ContextLoaderListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="102" column="21" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.5.RELEASE/spring-web-5.2.5.RELEASE-sources.jar!/org/springframework/web/filter/CharacterEncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="53" column="41" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+          <folding>
+            <element signature="n#filter#0;n#web-app#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.19/mysql-connector-java-8.0.19.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-maven-plugin/1.3.0/mybatis-generator-maven-plugin-1.3.0.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../OpenSources/jdk1.8.0_131/src.zip!/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="219" column="13" selection-start-line="219" selection-start-column="13" selection-end-line="219" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/resources/MBG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/webapp/index_old.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="97" selection-start-line="5" selection-start-column="7" selection-end-line="18" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1-sources.jar!/javax/servlet/http/HttpServletRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="388" column="18" selection-start-line="388" selection-start-column="18" selection-end-line="388" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="82" selection-start-line="2" selection-start-column="82" selection-end-line="2" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/resources/applicatonContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/bean/BookExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="docComment;field#orderByClause#0;class#BookExample#0" />
+            <element signature="docComment;field#distinct#0;class#BookExample#0" />
+            <element signature="docComment;field#oredCriteria#0;class#BookExample#0" />
+            <element signature="docComment;method#BookExample#0;class#BookExample#0" />
+            <element signature="docComment;method#setOrderByClause#0;class#BookExample#0" />
+            <element signature="docComment;method#getOrderByClause#0;class#BookExample#0" />
+            <element signature="docComment;method#setDistinct#0;class#BookExample#0" />
+            <element signature="docComment;method#isDistinct#0;class#BookExample#0" />
+            <element signature="docComment;method#getOredCriteria#0;class#BookExample#0" />
+            <element signature="docComment;method#or#0;class#BookExample#0" />
+            <element signature="docComment;method#or#1;class#BookExample#0" />
+            <element signature="method#or#1;class#BookExample#0" />
+            <element signature="docComment;method#createCriteria#0;class#BookExample#0" />
+            <element signature="method#createCriteria#0;class#BookExample#0" />
+            <element signature="e#3022#3073#1" />
+            <element signature="docComment;method#createCriteriaInternal#0;class#BookExample#0" />
+            <element signature="method#createCriteriaInternal#0;class#BookExample#0" />
+            <element signature="docComment;method#clear#0;class#BookExample#0" />
+            <element signature="method#clear#0;class#BookExample#0" />
+            <element signature="docComment;class#GeneratedCriteria#0;class#BookExample#0" />
+            <element signature="class#GeneratedCriteria#0;class#BookExample#0" />
+            <element signature="e#3935#4048#0" />
+            <element signature="e#4231#4473#0" />
+            <element signature="e#4314#4411#1" />
+            <element signature="e#4483#4766#0" />
+            <element signature="e#4593#4697#1" />
+            <element signature="e#4776#5112#0" />
+            <element signature="e#4921#5034#1" />
+            <element signature="e#5122#5239#0" />
+            <element signature="e#5249#5373#0" />
+            <element signature="e#5383#5521#0" />
+            <element signature="e#5531#5673#0" />
+            <element signature="e#5683#5825#0" />
+            <element signature="e#5835#5987#0" />
+            <element signature="e#5997#6136#0" />
+            <element signature="e#6146#6295#0" />
+            <element signature="e#6305#6447#0" />
+            <element signature="e#6457#6606#0" />
+            <element signature="e#6616#6786#0" />
+            <element signature="e#6796#6973#0" />
+            <element signature="e#6983#7104#0" />
+            <element signature="e#7114#7242#0" />
+            <element signature="e#7252#7395#0" />
+            <element signature="e#7405#7552#0" />
+            <element signature="e#7562#7709#0" />
+            <element signature="e#7719#7876#0" />
+            <element signature="e#7886#8030#0" />
+            <element signature="e#8040#8194#0" />
+            <element signature="e#8204#8347#0" />
+            <element signature="e#8357#8507#0" />
+            <element signature="e#8517#8664#0" />
+            <element signature="e#8674#8828#0" />
+            <element signature="e#8838#9012#0" />
+            <element signature="e#9022#9203#0" />
+            <element signature="e#9213#9338#0" />
+            <element signature="e#9348#9480#0" />
+            <element signature="e#9490#9639#0" />
+            <element signature="e#9649#9802#0" />
+            <element signature="e#9812#9965#0" />
+            <element signature="e#9975#10138#0" />
+            <element signature="e#10148#10298#0" />
+            <element signature="e#10308#10468#0" />
+            <element signature="e#10478#10627#0" />
+            <element signature="e#10637#10793#0" />
+            <element signature="e#10803#10956#0" />
+            <element signature="e#10966#11126#0" />
+            <element signature="e#11136#11316#0" />
+            <element signature="e#11326#11513#0" />
+            <element signature="e#11523#11646#0" />
+            <element signature="e#11656#11786#0" />
+            <element signature="e#11796#11946#0" />
+            <element signature="e#11956#12110#0" />
+            <element signature="e#12120#12274#0" />
+            <element signature="e#12284#12448#0" />
+            <element signature="e#12458#12609#0" />
+            <element signature="e#12619#12780#0" />
+            <element signature="e#12790#12944#0" />
+            <element signature="e#12954#13115#0" />
+            <element signature="e#13125#13310#0" />
+            <element signature="e#13320#13512#0" />
+            <element signature="e#13522#13645#0" />
+            <element signature="e#13655#13785#0" />
+            <element signature="e#13795#13942#0" />
+            <element signature="e#13952#14103#0" />
+            <element signature="e#14113#14264#0" />
+            <element signature="e#14274#14435#0" />
+            <element signature="e#14445#14593#0" />
+            <element signature="e#14603#14761#0" />
+            <element signature="e#14771#14922#0" />
+            <element signature="e#14932#15090#0" />
+            <element signature="e#15100#15279#0" />
+            <element signature="e#15289#15475#0" />
+            <element signature="e#15485#15608#0" />
+            <element signature="e#15618#15748#0" />
+            <element signature="e#15758#15905#0" />
+            <element signature="e#15915#16066#0" />
+            <element signature="e#16076#16227#0" />
+            <element signature="e#16237#16398#0" />
+            <element signature="e#16408#16556#0" />
+            <element signature="e#16566#16724#0" />
+            <element signature="e#16734#16885#0" />
+            <element signature="e#16895#17053#0" />
+            <element signature="e#17063#17242#0" />
+            <element signature="e#17252#17438#0" />
+            <element signature="e#17448#17576#0" />
+            <element signature="e#17586#17721#0" />
+            <element signature="e#17731#17884#0" />
+            <element signature="e#17894#18051#0" />
+            <element signature="e#18061#18218#0" />
+            <element signature="e#18228#18395#0" />
+            <element signature="e#18405#18559#0" />
+            <element signature="e#18569#18733#0" />
+            <element signature="e#18743#18896#0" />
+            <element signature="e#18906#19066#0" />
+            <element signature="e#19076#19233#0" />
+            <element signature="e#19243#19407#0" />
+            <element signature="e#19417#19601#0" />
+            <element signature="e#19611#19802#0" />
+            <element signature="docComment;class#Criteria#0;class#BookExample#0" />
+            <element signature="class#Criteria#0;class#BookExample#0" />
+            <element signature="docComment;class#Criterion#0;class#BookExample#0" />
+            <element signature="class#Criterion#0;class#BookExample#0" />
+            <element signature="method#Criterion#0;class#Criterion#0;class#BookExample#0" />
+            <element signature="method#Criterion#1;class#Criterion#0;class#BookExample#0" />
+            <element signature="e#21480#21534#1" />
+            <element signature="e#21540#21596#1" />
+            <element signature="method#Criterion#2;class#Criterion#0;class#BookExample#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_crud/src/test/MGBTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_crud/src/test/com/github/ssm/dao/BookMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_crud/src/test/com/github/ssm/controller/BookControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="16" />
+          <folding>
+            <element signature="e#1420#1421#0" expanded="true" />
+            <element signature="e#1497#1498#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_crud/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+          <folding>
+            <element signature="n#properties#0;n#project#0;n#!!top" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
+            <element signature="n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugin#1;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugin#2;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugin#3;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugin#4;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugin#5;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugin#6;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/webapp/WEB-INF/views/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="69" column="70" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/bean/Msg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.11/pagehelper-5.1.11.jar!/com/github/pagehelper/PageInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.11/pagehelper-5.1.11-sources.jar!/com/github/pagehelper/PageInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/bean/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="224" column="7" lean-forward="true" selection-start-line="224" selection-start-column="7" selection-end-line="224" selection-end-column="7" />
+          <folding>
+            <element signature="docComment;field#name#0;class#Book#0" />
+            <element signature="docComment;field#author#0;class#Book#0" />
+            <element signature="docComment;field#price#0;class#Book#0" />
+            <element signature="docComment;field#sales#0;class#Book#0" />
+            <element signature="docComment;field#stock#0;class#Book#0" />
+            <element signature="docComment;field#imgPath#0;class#Book#0" />
+            <element signature="docComment;method#getId#0;class#Book#0" />
+            <element signature="docComment;method#setId#0;class#Book#0" />
+            <element signature="docComment;method#getName#0;class#Book#0" />
+            <element signature="docComment;method#setName#0;class#Book#0" />
+            <element signature="docComment;method#getAuthor#0;class#Book#0" />
+            <element signature="docComment;method#setAuthor#0;class#Book#0" />
+            <element signature="docComment;method#getPrice#0;class#Book#0" />
+            <element signature="docComment;method#setPrice#0;class#Book#0" />
+            <element signature="docComment;method#getSales#0;class#Book#0" />
+            <element signature="docComment;method#setSales#0;class#Book#0" />
+            <element signature="docComment;method#getStock#0;class#Book#0" />
+            <element signature="docComment;method#setStock#0;class#Book#0" />
+            <element signature="docComment;method#getImgPath#0;class#Book#0" />
+            <element signature="docComment;method#setImgPath#0;class#Book#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/resources/mapper/BookMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="150" column="8" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="8" />
+          <folding>
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+            <element signature="n#sql#0;n#mapper#0;n#!!top" />
+            <element signature="n#where#0;n#sql#0;n#mapper#0;n#!!top" />
+            <element signature="n#when#0;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" />
+            <element signature="n#when#1;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" />
+            <element signature="n#when#2;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" />
+            <element signature="n#when#3;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" />
+            <element signature="n#foreach#0;n#when#3;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" />
+            <element signature="n#sql#1;n#mapper#0;n#!!top" />
+            <element signature="n#where#0;n#sql#1;n#mapper#0;n#!!top" />
+            <element signature="n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" />
+            <element signature="n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" />
+            <element signature="n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" />
+            <element signature="n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" />
+            <element signature="n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" />
+            <element signature="n#when#0;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" />
+            <element signature="n#when#1;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" />
+            <element signature="n#when#2;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" />
+            <element signature="n#when#3;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" />
+            <element signature="n#foreach#0;n#when#3;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" />
+            <element signature="n#sql#2;n#mapper#0;n#!!top" />
+            <element signature="e#4683#4820#0" />
+            <element signature="n#if#0;n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#if#2;n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" />
+            <element signature="n#delete#1;n#mapper#0;n#!!top" />
+            <element signature="n#if#0;n#delete#1;n#mapper#0;n#!!top" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+            <element signature="n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#if#0;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#if#1;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#if#2;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#if#3;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#if#4;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#if#5;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#if#6;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#if#0;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#if#1;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#if#2;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#if#3;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#if#4;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#if#5;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#if#6;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" />
+            <element signature="n#if#0;n#select#2;n#mapper#0;n#!!top" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#set#0;n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#if#0;n#set#0;n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#if#1;n#set#0;n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#if#2;n#set#0;n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#if#3;n#set#0;n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#if#4;n#set#0;n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#if#5;n#set#0;n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#if#6;n#set#0;n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#if#0;n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#update#1;n#mapper#0;n#!!top" />
+            <element signature="n#if#0;n#update#1;n#mapper#0;n#!!top" />
+            <element signature="n#update#2;n#mapper#0;n#!!top" />
+            <element signature="n#set#0;n#update#2;n#mapper#0;n#!!top" />
+            <element signature="n#if#0;n#set#0;n#update#2;n#mapper#0;n#!!top" />
+            <element signature="n#if#1;n#set#0;n#update#2;n#mapper#0;n#!!top" />
+            <element signature="n#if#2;n#set#0;n#update#2;n#mapper#0;n#!!top" />
+            <element signature="n#if#3;n#set#0;n#update#2;n#mapper#0;n#!!top" />
+            <element signature="n#if#4;n#set#0;n#update#2;n#mapper#0;n#!!top" />
+            <element signature="n#if#5;n#set#0;n#update#2;n#mapper#0;n#!!top" />
+            <element signature="n#update#3;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/dao/BookMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+          <folding>
+            <element signature="docComment;method#countByExample#0;class#BookMapper#0" />
+            <element signature="docComment;method#deleteByExample#0;class#BookMapper#0" />
+            <element signature="docComment;method#deleteByPrimaryKey#0;class#BookMapper#0" />
+            <element signature="docComment;method#insert#0;class#BookMapper#0" />
+            <element signature="docComment;method#insertSelective#0;class#BookMapper#0" />
+            <element signature="docComment;method#selectByExample#0;class#BookMapper#0" />
+            <element signature="docComment;method#selectByPrimaryKey#0;class#BookMapper#0" />
+            <element signature="docComment;method#updateByExampleSelective#0;class#BookMapper#0" />
+            <element signature="docComment;method#updateByExample#0;class#BookMapper#0" />
+            <element signature="docComment;method#updateByPrimaryKeySelective#0;class#BookMapper#0" />
+            <element signature="docComment;method#updateByPrimaryKey#0;class#BookMapper#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.5.RELEASE/spring-web-5.2.5.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2110">
+          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/controller/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getSales#0;class#BookController#0" />
+            <element signature="method#getBooksWithJson#0;class#BookController#0" />
+            <element signature="method#getBooks#0;class#BookController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="222" column="36" selection-start-line="222" selection-start-column="36" selection-end-line="222" selection-end-column="57" />
+          <folding>
+            <element signature="e#65#225#0#JSP" />
+            <element signature="e#310#391#0#JSP" />
+            <element signature="e#418#491#0#JSP" />
+            <element signature="e#1023#1087#0#HTML" />
+            <element signature="e#1120#1576#0#HTML" />
+            <element signature="e#1638#3111#0#HTML" />
+            <element signature="e#3171#3443#0#HTML" />
+            <element signature="e#3503#5635#0#HTML" />
+            <element signature="e#6741#7203#0#HTML" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -684,10 +1409,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>ssm_crud:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -695,7 +1422,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Web (ssm_crud)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -730,12 +1457,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spring</last-edited>
+          <last-edited>Spring|ssm_crud</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -777,5 +1503,8 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>

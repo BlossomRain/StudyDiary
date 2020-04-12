@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <!--spring 配置文件-->
+    <!--配置扫描的包-->
+    <context:component-scan base-package="com.github.ssm">
+        <context:exclude-filter type="annotation"
+                                expression="org.springframework.stereotype.Controller"></context:exclude-filter>
+    </context:component-scan>
+
+    <!--数据源-->
+    <context:property-placeholder location="classpath:jdbc.properties"></context:property-placeholder>
+    <bean class="com.mchange.v2.c3p0.ComboPooledDataSource" id="pooledDataSource">
+        <property name="user" value="${jdbc.user}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+        <property name="jdbcUrl" value="${jdbc.url}"></property>
+        <property name="driverClass" value="${jdbc.driverClass}"></property>
+    </bean>
+
+    <!--mybatis整合-->
+    <bean class="org.mybatis.spring.SqlSessionFactoryBean" id="sqlSessionFactory">
+        <!--指定全局配置文件的位置-->
+        <property name="configLocation" value="classpath:mybatis-config.xml"></property>
+        <property name="dataSource" ref="pooledDataSource"></property>
+        <!--指定mapper的位置-->
+        <property name="mapperLocations" value="classpath:mapper/*.xml"></property>
+    </bean>
+    <!--配置扫描器,将mybatis的接口文件纳入IOC中-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.github.ssm.dao"></property>
+    </bean>
+
+    <!--配置事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="pooledDataSource"></property>
+    </bean>
+    <!--配置基于注解/配置的事务(重要的)-->
+    <aop:config>
+        <!--切入点表达式-->
+        <aop:pointcut id="txPointcut" expression="execution(* com.github.ssm.service..*(..))"></aop:pointcut>
+        <!--配置事务增强-->
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="txPointcut"></aop:advisor>
+    </aop:config>
+    <!--配置事务增强,事务如何切入-->
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="*"/>
+            <tx:method name="get*" read-only="true"></tx:method>
+        </tx:attributes>
+    </tx:advice>
+</beans>

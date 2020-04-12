@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration> <!-- 数据库连接环境的配置 -->
+
+    <!--使用资源文件-->
+    <properties resource="db.properties"></properties>
+
+    <!--设置-->
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <setting name="cacheEnabled" value="true"/>
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="false"/>
+    </settings>
+    <!--设置别名 单个 /  批量  默认类名小写-->
+    <typeAliases>
+        <typeAlias type="com.github.mybatis.bean.User"></typeAlias>
+        <package name="com.github.mybatis.bean"></package>
+    </typeAliases>
+    <!--环境设置,数据库信息-->
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!-- 引入SQL映射文件,Mapper映射文件 -->
+    <mappers>
+        <!--注册接口,mapper映射文件必须放在和接口同一目录下-->
+        <!--<mapper class="com.github.mybatis.dao.OrderMapper"></mapper>-->
+        <!--<mapper resource="UserMapper.xml"/>-->
+        <package name="com.github.mybatis.dao"></package>
+    </mappers>
+</configuration>

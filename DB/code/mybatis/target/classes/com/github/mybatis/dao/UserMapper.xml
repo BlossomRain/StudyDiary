@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--指定为接口的全类名-->
+<mapper namespace="com.github.mybatis.dao.UserMapper">
+    <!--开启二级缓存 type使用自定的缓存类型,只需要实现Cache接口,重点:需要实现POJO序列化接口-->
+    <!--使用ehcache-->
+    <cache type="org.mybatis.caches.ehcache.EhcacheCache"/>
+
+    <!--<sql>标签,用于抽取经常要引用的部分,用<include>引入-->
+    <sql id="columns">
+        id,name,age
+    </sql>
+
+    <!--自定义Bean封装规则-->
+    <resultMap id="u" type="com.github.mybatis.bean.User">
+        <!--指定id 主键-->
+        <id column="id" property="id"></id>
+        <result column="email" property="email"></result>
+        <result column="username" property="username"></result>
+        <result column="password" property="password"></result>
+    </resultMap>
+    <!--获取自增主键值-->
+    <insert id="insertUser" parameterType="User"
+            useGeneratedKeys="true" keyProperty="id">
+        insert into t_user(username,password,email)values
+        (#{username},#{password},#{email})
+    </insert>
+
+    <update id="updateUser" parameterType="User">
+        update t_user set username=#{username},password=#{password},email=#{email}
+        where id = #{id}
+    </update>
+
+    <select id="getUserById"
+            resultType="com.github.mybatis.bean.User">
+        select id ,username,password,email from t_user where id = #{id}
+        <!-- select * from tbl_employee where id = #{id} -->
+    </select>
+
+    <select id="getUsers" resultType="com.github.mybatis.bean.User">
+      select * from t_user
+    </select>
+
+    <!--也可以使用<trim>标签替代<where>  <set>用于update操作,等同于<where>在select中得操作-->
+    <!--<foreach>可以用于生成集合,用于范围查询,批量操作:可以用多条insert用分号分隔,记得mysql要开启multi...-->
+    <!--
+        两个内置参数:_parameter  _databaseId
+        <bind> 可以为属性值添加上一些别的字符
+    -->
+    <select id="getUsersByConditionIf" resultType="com.github.mybatis.bean.User">
+        select * from t_user
+
+        <where>
+            <if test="id != null">
+                id=#{id}
+            </if>
+            <if test="password != null and password != ''">
+                and password=#{password}
+            </if>
+            <if test="email != null and email.trim()!=''">
+                and email=#{email}
+            </if>
+        </where>
+    </select>
+
+    <select id="getUserByIdReturnMap" resultType="java.util.Map" parameterType="integer">
+        select * from t_user where id= #{id}
+    </select>
+
+    <select id="getUsersMap" resultType="User">
+        select * from t_user
+    </select>
+</mapper>
