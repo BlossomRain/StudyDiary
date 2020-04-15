@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.gihub.study.springboot.pojo.Person",
+      "sourceType": "com.gihub.study.springboot.pojo.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.gihub.study.springboot.pojo.Person"
+    },
+    {
+      "name": "person.hobbies",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.gihub.study.springboot.pojo.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.gihub.study.springboot.pojo.Person"
+    },
+    {
+      "name": "person.pet",
+      "type": "com.gihub.study.springboot.pojo.Pet",
+      "sourceType": "com.gihub.study.springboot.pojo.Person"
+    }
+  ],
+  "hints": []
+}

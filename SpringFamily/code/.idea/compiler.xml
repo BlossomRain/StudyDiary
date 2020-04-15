@@ -2,23 +2,41 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ssm_crud" />
+        <module name="cloud-api-commons" />
+        <module name="cloud-consumer-order80" />
+        <module name="cloud-eureka-server7001" />
+        <module name="cloud-eureka-server7002" />
+        <module name="cloud-provider-payment8001" />
+        <module name="cloud-provider-payment8002" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spring" target="1.8" />
-      <module name="ssm_crud" target="1.8" />
+    <bytecodeTargetLevel target="8">
+      <module name="cloud-api-commons" target="1.8" />
+      <module name="cloud-consumer-order80" target="1.8" />
+      <module name="cloud-eureka-server7001" target="1.8" />
+      <module name="cloud-eureka-server7002" target="1.8" />
+      <module name="cloud-provider-payment8001" target="1.8" />
+      <module name="cloud-provider-payment8002" target="1.8" />
+      <module name="springcloud" target="1.8" />
+      <module name="test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="spring" options="" />
-      <module name="ssm_crud" options="" />
+      <module name="cloud-api-commons" options="" />
+      <module name="cloud-consumer-order80" options="" />
+      <module name="cloud-eureka-server7001" options="" />
+      <module name="cloud-eureka-server7002" options="" />
+      <module name="cloud-provider-payment8001" options="" />
+      <module name="cloud-provider-payment8002" options="" />
+      <module name="springcloud" options="" />
+      <module name="test" options="" />
     </option>
   </component>
 </project>

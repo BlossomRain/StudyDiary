@@ -907,7 +907,7 @@ public class AppConfig extends WebMvcConfigurerAdapter {
 
 3. springmvc-异步请求-返回DeferredResult
 
-   ![在这里插入图片描述](Spring-Annotation.assets/20190118172926766.png)
+   ![在这里插入图片描述](images/20190118172926766.png)
 
 ```java
 public class DeferredResultQueue {

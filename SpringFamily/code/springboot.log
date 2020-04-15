@@ -1,0 +1,44 @@
+2020-04-12 17:37:44.255  INFO 3728 --- [main] com.gihub.study.springboot.Application   : Starting Application on BF-201706171228 with PID 3728 (E:\Java\java\20200123\study_diary\SpringFamily\code\spring-boot\target\classes started by Administrator in E:\Java\java\20200123\study_diary\SpringFamily\code)
+2020-04-12 17:37:44.258 DEBUG 3728 --- [main] com.gihub.study.springboot.Application   : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-12 17:37:44.258  INFO 3728 --- [main] com.gihub.study.springboot.Application   : The following profiles are active: dev
+2020-04-12 17:37:45.550  INFO 3728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2020-04-12 17:37:45.579  INFO 3728 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-12 17:37:45.579  INFO 3728 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-12 17:37:45.792  INFO 3728 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-12 17:37:45.792  INFO 3728 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1432 ms
+2020-04-12 17:37:46.015  INFO 3728 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 17:37:46.099  WARN 3728 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'viewResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'thymeleafViewResolver' defined in class path resource [org/springframework/boot/autoconfigure/thymeleaf/ThymeleafAutoConfiguration$ThymeleafWebMvcConfiguration$ThymeleafViewResolverConfiguration.class]: Unsatisfied dependency expressed through method 'thymeleafViewResolver' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'templateEngine' defined in class path resource [org/springframework/boot/autoconfigure/thymeleaf/ThymeleafAutoConfiguration$ThymeleafDefaultConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.thymeleaf.spring5.SpringTemplateEngine]: Factory method 'templateEngine' threw exception; nested exception is java.lang.NoSuchMethodError: org.thymeleaf.spring5.SpringTemplateEngine.setRenderHiddenMarkersBeforeCheckboxes(Z)V
+2020-04-12 17:37:46.100  INFO 3728 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 17:37:46.102  INFO 3728 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-04-12 17:37:46.134  INFO 3728 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-12 17:37:46.139 ERROR 3728 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafDefaultConfiguration.templateEngine(ThymeleafAutoConfiguration.java:142)
+
+The following method did not exist:
+
+    org.thymeleaf.spring5.SpringTemplateEngine.setRenderHiddenMarkersBeforeCheckboxes(Z)V
+
+The method's class, org.thymeleaf.spring5.SpringTemplateEngine, is available from the following locations:
+
+    jar:file:/D:/Program%20Files/IntelliJ%20IDEA%202018.3.6/maven_repo/org/thymeleaf/thymeleaf-spring5/3.0.9.RELEASE/thymeleaf-spring5-3.0.9.RELEASE.jar!/org/thymeleaf/spring5/SpringTemplateEngine.class
+
+It was loaded from the following location:
+
+    file:/D:/Program%20Files/IntelliJ%20IDEA%202018.3.6/maven_repo/org/thymeleaf/thymeleaf-spring5/3.0.9.RELEASE/thymeleaf-spring5-3.0.9.RELEASE.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.thymeleaf.spring5.SpringTemplateEngine
+

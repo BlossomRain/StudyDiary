@@ -1,0 +1,12 @@
+#person:
+#  name: Dubby${random.uuid}
+#  age: 12
+#  hobbies:
+#    k1: v1
+#    k2: v2
+#  pet:
+#    name: xiaogou
+#    color: red
+#spring:
+#  profiles:
+#    active: dev

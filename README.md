@@ -11,6 +11,7 @@
 ## 2.DB 数据库部分
 
 - JDBC
+- Mybatis
 
 ## 3.JavaWeb
 html css js jq servlet filter ajax json JSP EL JSTL
@@ -22,4 +23,6 @@ Spring 基于xml的基本使用
 spirng-mvc  
 
 spring-annotation 注解版的spring,需要前面两个的基础
+
+spring-cloud
 

@@ -7,122 +7,118 @@
   </component>
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
-      <module name="ssm_crud" />
+      <module name="springcloud" />
+      <module name="code" />
+      <module name="cloud-consumer-order80" />
+      <module name="cloud-provider-payment8001" />
+      <module name="cloud-api-commons" />
+      <module name="cloud-eureka-server7001" />
+      <module name="cloud-eureka-server7002" />
+      <module name="cloud-provider-payment8002" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c994b83a-55f4-4a07-89b4-7171eb42bc0b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../DB/code/JDBC_study.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/META-INF/JDBC_study.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/c3p0-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/com/test/bean/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/com/test/dao/BaseDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/com/test/dao/CustomerDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/com/test/dao/CustomerDAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/com/test/dao/CustomerDAOImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/com/test/main/Basic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/com/test/main/DataSourceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/com/test/main/PrepareStatementTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/com/test/main/QueryRunnerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/com/test/util/JDBCUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/druid.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/images/5a4cca2b4f2dd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/out/production/JDBC_study/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/src/c3p0-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/src/com/test/bean/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/src/com/test/dao/BaseDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/src/com/test/dao/CustomerDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/src/com/test/dao/CustomerDAOImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/src/com/test/dao/CustomerDAOImplTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/src/com/test/main/Basic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/src/com/test/main/DataSourceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/src/com/test/main/PrepareStatementTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/src/com/test/main/QueryRunnerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/src/com/test/util/JDBCUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/src/druid.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/src/images/5a4cca2b4f2dd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/code/src/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DB/错误笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../DB/错误笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring-Annotation.assets/20190118172926766.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spring-Annotation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-Annotation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/test/test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/bean/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/bean/Color.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/bean/ColorFactoryBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/bean/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/bean/Red.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/condition/ColorImportSelector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/condition/WindowsCondition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/config/Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/config/MyTypeFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/controller/BookController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/repogitory/BookDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/annotation/service/BookService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/beans/ArithmeticCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/beans/ArithmeticCalculatorImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/beans/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/beans/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/beans/HelloSpring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/beans/LoggingAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/beans/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/beans/ValidationAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/tx/BookShopDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/tx/BookShopDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/tx/BookShopService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/tx/BookShopServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/tx/BookStockException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/tx/Cashier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/tx/CashierImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/tx/SpringTransactionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/github/spring/tx/UserAccountException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/test-classes/com/github/spring/annotation/config/ConfigTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/test-classes/com/github/spring/beans/AOPTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/test-classes/com/github/spring/beans/HelloSpringTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/test-classes/com/github/spring/beans/JdbcTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/test-classes/com/github/spring/beans/PersonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring.assets/image-20200404160043382.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring.assets/image-20200404184034041.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring.assets/image-20200404185733737.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring.assets/image-20200405104727650.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring.assets/image-20200405105200943.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring.assets/image-20200405105306655.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring.assets/image-20200405110530827.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring.assets/image-20200405213118021.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring.assets/image-20200405213257999.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring.assets/image-20200405213307113.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/bean/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/bean/BookExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/bean/Msg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/controller/BookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/dao/BookMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/service/BookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/resources/MBG.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/resources/applicatonContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/resources/mapper/BookMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/index_old.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/test/MGBTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/test/com/github/ssm/controller/BookControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/src/test/com/github/ssm/dao/BookMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/target/classes/com/github/ssm/bean/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/target/classes/com/github/ssm/bean/BookExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/target/classes/com/github/ssm/bean/BookExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/target/classes/com/github/ssm/bean/BookExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/target/classes/com/github/ssm/bean/BookExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/target/classes/com/github/ssm/bean/Msg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/target/classes/com/github/ssm/controller/BookController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/target/classes/com/github/ssm/dao/BookMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/target/classes/com/github/ssm/service/BookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/target/test-classes/MGBTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_crud/target/test-classes/com/github/ssm/controller/BookControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-mvc.assets/image-20200406151555791.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-mvc.assets/image-20200406151701134.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-mvc.assets/image-20200406192715601.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-mvc.assets/image-20200406193829353.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-mvc.assets/image-20200406194051832.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-mvc.md" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../错误笔记.assets/1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../错误笔记.assets/image-20200410223953198.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../错误笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../错误笔记.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spring/target/" />
     <ignored path="$PROJECT_DIR$/ssm_crud/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud/target/" />
+    <ignored path="$PROJECT_DIR$/test/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud/cloud-provider-payment8001/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud/cloud-consumer-order80/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud/cloud-api-commons/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud/cloud-eureka-server7001/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud/cloud-eureka-server7002/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud/cloud-provider-payment8002/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/webapp/index.jsp">
+        <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/resources/application.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="222" column="36" selection-start-line="222" selection-start-column="36" selection-end-line="222" selection-end-column="57" />
-              <folding>
-                <element signature="e#65#225#0#JSP" />
-                <element signature="e#310#391#0#JSP" />
-                <element signature="e#418#491#0#JSP" />
-                <element signature="e#1023#1087#0#HTML" />
-                <element signature="e#1120#1576#0#HTML" />
-                <element signature="e#1638#3111#0#HTML" />
-                <element signature="e#3171#3443#0#HTML" />
-                <element signature="e#3503#5635#0#HTML" />
-                <element signature="e#6741#7203#0#HTML" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/controller/BookController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getSales#0;class#BookController#0" />
-                <element signature="method#getBooksWithJson#0;class#BookController#0" />
-                <element signature="method#getBooks#0;class#BookController#0" />
-              </folding>
+            <state relative-caret-position="422">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -135,8 +131,10 @@
         <option value="spring-beans.schema" />
         <option value="Tag Library Descriptor" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -147,6 +145,11 @@
       <find>close</find>
       <find>(/\*([^*]|[\r\n]|(\*+([^*/]|[\r\n])))*\*+/|[ \t]*//.*)</find>
       <find>mysql</find>
+      <find>compan</find>
+      <find>customer</find>
+      <find>version</find>
+      <find>lombok</find>
+      <find>tomcat</find>
     </findStrings>
     <replaceStrings>
       <replace>\n</replace>
@@ -159,49 +162,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring/src/main/resources/annotation.xml" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotationbean/Person.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/Config.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/repogitory/BookRepogitory.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/service/BookService.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/controller/BookController.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/config/MyTypeFilter.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/condition/WindowsCondition.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/condition/ColorImportSelector.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/bean/ColorFactoryBean.java" />
-        <option value="$PROJECT_DIR$/spring/src/test/java/com/github/spring/annotation/config/ConfigTest.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/bean/Car.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/config/Config.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/aop/MathCalculator.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/aop/LoggingAspect.java" />
-        <option value="$PROJECT_DIR$/spring/src/test/java/com/github/spring/annotation/config/AOPConfigTest.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/config/AOPConfig.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/config/TxConfig.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/extension/BeanFactoryPostProcessorDemo.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/config/ExtensionConfig.java" />
-        <option value="$PROJECT_DIR$/spring/src/test/java/com/github/spring/annotation/config/ExtensionConfigTest.java" />
-        <option value="$PROJECT_DIR$/ssm_crud/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/bean/controller/Book.java" />
-        <option value="$PROJECT_DIR$/ssm_crud/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml" />
-        <option value="$PROJECT_DIR$/ssm_crud/src/main/resources/mybatis-config.tld" />
-        <option value="$PROJECT_DIR$/ssm_crud/MBG.xml" />
-        <option value="$PROJECT_DIR$/ssm_crud/src/MBG.xml" />
-        <option value="$PROJECT_DIR$/ssm_crud/src/main/resources/MBG.xml" />
-        <option value="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/dao/BookMapper.java" />
-        <option value="$PROJECT_DIR$/ssm_crud/src/test/MGBTest.java" />
-        <option value="$PROJECT_DIR$/ssm_crud/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/bean/Book.java" />
-        <option value="$PROJECT_DIR$/ssm_crud/src/main/resources/applicatonContext.xml" />
-        <option value="$PROJECT_DIR$/ssm_crud/src/test/com/github/ssm/dao/BookMapperTest.java" />
-        <option value="$PROJECT_DIR$/ssm_crud/src/test/com/github/ssm/controller/BookControllerTest.java" />
-        <option value="$PROJECT_DIR$/ssm_crud/src/main/webapp/WEB-INF/views/list.jsp" />
-        <option value="$PROJECT_DIR$/ssm_crud/pom.xml" />
-        <option value="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/bean/Msg.java" />
-        <option value="$PROJECT_DIR$/ssm_crud/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/service/BookService.java" />
-        <option value="$PROJECT_DIR$/ssm_crud/src/main/resources/mapper/BookMapper.xml" />
-        <option value="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/controller/BookController.java" />
-        <option value="$PROJECT_DIR$/ssm_crud/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/spring-boot/src/test/java/com/gihub/study/springboot/ApplicationTests.java" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/resources/templates/success.html" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/resources/config/application.yaml" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/resources/config/application-dev.yaml" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/dao/DepartmentDao.java" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/dao/EmployeeDao.java" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/resources/i18n/login_zh_CN.properties" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/component/MyLocaleResolver.java" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/test/Analyze.java" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/test/Item.java" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/test/LR0.java" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/resources/config/application.properties" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/controller/GreetingController.java" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/component/LoginHandlerInterceptor.java" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/config/WebmvcConfig.java" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/resources/templates/dashboard.html" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/component/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/../../../课件资料-尚硅谷/05-尚硅谷_java高级/源码、资料、课件/代码/spring-boot-04-web-restfulcrud/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/pom.xml" />
+        <option value="$PROJECT_DIR$/test/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/java/com/github/study/springcloud/entities/Payment.java" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/java/com/github/study/springcloud/entities/CommonResult.java" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/java/com/github/study/springcloud/dao/PaymentDao.java" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/java/com/github/study/springcloud/service/impl/PaymentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-api-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/java/com/github/study/springcloud/service/PaymentService.java" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-eureka-server7001/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-eureka-server7001/src/main/java/com/github/study/springcloud/EurekeMain7001.java" />
+        <option value="$PROJECT_DIR$/springcloud/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-provider-payment8001/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-consumer-order80/src/main/java/com/github/study/springcloud/OrderMain80.java" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-consumer-order80/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-eureka-server7002/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-eureka-server7002/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-eureka-server7002/src/main/java/com/github/study/springcloud/EurekaMain7002.java" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-consumer-order80/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-provider-payment8002/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-consumer-order80/src/main/java/com/github/study/springcloud/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-consumer-order80/src/main/java/com/github/study/springcloud/config/ApplicationContextConfig.java" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-provider-payment8002/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/java/com/github/study/springcloud/controller/PaymentController.java" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/java/com/github/study/springcloud/PaymentMain8001.java" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-provider-payment8002/src/main/java/com/github/study/springcloud/PaymentMain8002.java" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-provider-payment8002/src/main/java/com/github/study/springcloud/controller/PaymentController.java" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-eureka-server7001/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/resources/application.yaml" />
       </list>
     </option>
   </component>
@@ -216,8 +227,9 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\Program Files\IntelliJ IDEA 2018.3.6\maven_repo" />
+        <option name="mavenHome" value="D:/Program Files/maven/apache-maven-3.6.1" />
         <option name="pluginUpdatePolicy" value="DO_NOT_UPDATE" />
-        <option name="userSettingsFile" value="E:\Java\OpenSources\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="userSettingsFile" value="D:\Program Files\maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -231,18 +243,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssm_crud Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cloud-api-commons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssm_crud Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssm_crud Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
+          <item name="cloud-api-commons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -250,9 +256,10 @@
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="775" />
   </component>
@@ -261,56 +268,67 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_crud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -319,22 +337,29 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586614476285" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586949808000" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring/spring.iml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../课件资料-尚硅谷/05-尚硅谷_java高级/源码、资料、课件/代码/spring-boot-04-web-restfulcrud/spring-boot-04-web-restfulcrud.iml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -345,26 +370,38 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\ssm_crud\src\main\resources" />
-      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\ssm_crud\src" />
-      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\ssm_crud\src\main" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="com.github.ssm" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\spring-boot\src\main\resources\templates\emp" />
+      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\spring-boot\src\main\resources\config" />
+      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\ssm_crud\src\main\resources" />
+      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\ssm_crud\src" />
+      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\ssm_crud\src\main" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\ssm_crud\src\main\java" />
-      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\ssm_crud\src\main\webapp\static\js" />
-      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\ssm_crud\src\main\webapp\static" />
-      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\spring" />
+      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\springcloud\cloud-provider-payment8002" />
+      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\springcloud\cloud-provider-payment8002\src" />
+      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\springcloud\cloud-api-commons\src\main\java\com\github\study" />
+      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\springcloud\cloud-consumer-order80\src\main\java\com\github\study\springcloud" />
+      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\ssm_crud" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.study.springcloud.entities" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.gihub.study.springboot.pojo" />
       <recent name="com.github.ssm.service" />
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -375,11 +412,21 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.26197836" />
   </component>
-  <component name="RunManager" selected="Tomcat Server.ssm_crud">
-    <configuration name="MGBTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MGBTest" />
-      <module name="ssm_crud" />
+  <component name="RunManager" selected="Spring Boot.EurekeMain7001">
+    <configuration name="ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gihub.study.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gihub.study.springboot" />
+      <option name="MAIN_CLASS_NAME" value="com.gihub.study.springboot.ApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -400,109 +447,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookMapperTest.testCRUD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssm_crud" />
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gihub.study.springboot.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-eureka-server7002" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.ssm.dao.*" />
+          <option name="PATTERN" value="com.github.study.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.github.ssm.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.github.ssm.dao.BookMapperTest" />
-      <option name="METHOD_NAME" value="testCRUD" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.study.springcloud.EurekaMain7002" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtensionConfigTest.testBeanFactoryPostProcessor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring" />
+    <configuration name="EurekeMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-server7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.study.springcloud.EurekaMain7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-order80" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.spring.annotation.config.*" />
+          <option name="PATTERN" value="com.github.study.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.github.spring.annotation.config" />
-      <option name="MAIN_CLASS_NAME" value="com.github.spring.annotation.config.ExtensionConfigTest" />
-      <option name="METHOD_NAME" value="testBeanFactoryPostProcessor" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.study.springcloud.OrderMain80" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
+    <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.study.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.study.springcloud.PaymentMain8001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+    <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.study.springcloud.PaymentMain8002" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="ssm_crud [mybatis-generator:generate]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="mybatis-generator:generate" />
-              </list>
-            </option>
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/ssm_crud" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
     </configuration>
     <configuration name="ssm_crud" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.34" ALTERNATIVE_JRE_ENABLED="false">
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
@@ -613,22 +616,28 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MGBTest" />
-      <item itemvalue="JUnit.ExtensionConfigTest.testBeanFactoryPostProcessor" />
-      <item itemvalue="JUnit.BookMapperTest.testCRUD" />
       <item itemvalue="JUnit.BookControllerTest.getBooks" />
-      <item itemvalue="Maven.ssm_crud [mybatis-generator:generate]" />
+      <item itemvalue="JUnit.ApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.EurekeMain7001" />
+      <item itemvalue="Spring Boot.PaymentMain8002" />
+      <item itemvalue="Spring Boot.PaymentMain8001" />
+      <item itemvalue="Spring Boot.OrderMain80" />
+      <item itemvalue="Spring Boot.EurekaMain7002" />
       <item itemvalue="Tomcat Server.ssm_crud" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OrderMain80" />
+        <item itemvalue="Spring Boot.PaymentMain8001" />
+        <item itemvalue="Spring Boot.EurekaMain7002" />
+        <item itemvalue="JUnit.ApplicationTests.contextLoads" />
         <item itemvalue="JUnit.BookControllerTest.getBooks" />
-        <item itemvalue="JUnit.BookMapperTest.testCRUD" />
-        <item itemvalue="Maven.ssm_crud [mybatis-generator:generate]" />
-        <item itemvalue="Application.MGBTest" />
-        <item itemvalue="JUnit.ExtensionConfigTest.testBeanFactoryPostProcessor" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -653,28 +662,26 @@
       <workItem from="1586580768737" duration="16732000" />
       <workItem from="1586614607440" duration="104000" />
       <workItem from="1586615419474" duration="874000" />
+      <workItem from="1586659622209" duration="2402000" />
+      <workItem from="1586665676817" duration="6605000" />
+      <workItem from="1586681043881" duration="9466000" />
+      <workItem from="1586745208396" duration="813000" />
+      <workItem from="1586751551093" duration="3929000" />
+      <workItem from="1586853231504" duration="1344000" />
+      <workItem from="1586855145448" duration="3448000" />
+      <workItem from="1586858599418" duration="540000" />
+      <workItem from="1586862684008" duration="7403000" />
+      <workItem from="1586872363487" duration="551000" />
+      <workItem from="1586872940779" duration="2954000" />
+      <workItem from="1586876044249" duration="103000" />
+      <workItem from="1586880379078" duration="3322000" />
+      <workItem from="1586919566238" duration="10136000" />
+      <workItem from="1586948911319" duration="952000" />
+      <workItem from="1586957561638" duration="1054000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExtensionConfigTest_testBeanFactoryPostProcessor - 2020.04.08 at 15h 56m 25s.xml">
-      <configuration name="ExtensionConfigTest.testBeanFactoryPostProcessor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExtensionConfigTest_testBeanFactoryPostProcessor - 2020.04.08 at 15h 57m 36s.xml">
-      <configuration name="ExtensionConfigTest.testBeanFactoryPostProcessor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookMapperTest_testCRUD - 2020.04.11 at 10h 37m 39s.xml">
-      <configuration name="BookMapperTest.testCRUD" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookMapperTest_testCRUD - 2020.04.11 at 10h 39m 02s.xml">
-      <configuration name="BookMapperTest.testCRUD" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookMapperTest_testCRUD - 2020.04.11 at 10h 43m 43s.xml">
-      <configuration name="BookMapperTest.testCRUD" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookMapperTest_testCRUD - 2020.04.11 at 10h 45m 30s.xml">
-      <configuration name="BookMapperTest.testCRUD" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BookMapperTest_testCRUD - 2020.04.11 at 10h 46m 30s.xml">
       <configuration name="BookMapperTest.testCRUD" configurationId="JUnit" />
     </history-entry>
@@ -687,15 +694,42 @@
     <history-entry file="BookControllerTest_getBooks - 2020.04.11 at 11h 36m 23s.xml">
       <configuration name="BookControllerTest.getBooks" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ApplicationTests_contextLoads - 2020.04.12 at 12h 52m 42s.xml">
+      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_contextLoads - 2020.04.12 at 13h 07m 18s.xml">
+      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_contextLoads - 2020.04.12 at 13h 18m 08s.xml">
+      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_contextLoads - 2020.04.12 at 13h 26m 15s.xml">
+      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_contextLoads - 2020.04.12 at 14h 31m 55s.xml">
+      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_contextLoads - 2020.04.12 at 17h 37m 31s.xml">
+      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70121000" />
+    <option name="totallyTimeSpent" value="125143000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.32747602" weight="0.2602118" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.32747602" weight="0.21104388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -705,24 +739,26 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info id="Web" order="8" sideWeight="0.672524" side_tool="true" weight="0.2602118" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3288364" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.7172524" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39969134" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.3290735" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.7060703" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="ConsoleMavenPlugin" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50226927" side_tool="true" weight="0.7172524" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="JRebel Executor" order="15" />
-      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="17" sideWeight="0.49924356" weight="0.3290735" />
-      <window_info anchor="bottom" id="Application Servers" order="18" sideWeight="0.49924356" weight="0.3290735" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32747602" />
+      <window_info anchor="bottom" id="Run Dashboard" order="2" sideWeight="0.4977307" weight="0.63258785" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4969743" weight="0.69009584" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39969134" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3290735" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3290735" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.7060703" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="ConsoleMavenPlugin" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50226927" side_tool="true" weight="0.64377" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.3290735" />
+      <window_info anchor="bottom" id="JRebel Executor" order="16" />
+      <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="18" sideWeight="0.49924356" weight="0.3290735" />
+      <window_info anchor="bottom" id="Application Servers" order="19" sideWeight="0.49924356" weight="0.3290735" />
+      <window_info anchor="bottom" id="Problems" order="20" weight="0.3290735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.30786687" />
@@ -733,6 +769,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" x="0" y="0" width="295" height="584" id="Documentation" order="9" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -740,655 +777,399 @@
   </component>
   <component name="UnloadedModulesList">
     <module name="spring" />
+    <module name="spring-boot" />
     <module name="spring-mvc" />
+    <module name="ssm_crud" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.1.1.RELEASE/spring-tx-4.1.1.RELEASE-sources.jar!/org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="58" column="71" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/config/TxConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="42" column="37" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#dataSource#0;class#TxConfig#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/bean/Car.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/component/MyLocaleResolver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/config/ExtensionConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/extension/BeanFactoryPostProcessorDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="14" column="64" lean-forward="true" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistryPostProcessor.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/test.java" />
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/test/Item.java" />
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/test/LR0.java" />
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/test/Analyze.java" />
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/resources/config/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/controller/GreetingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.5.RELEASE/spring-webmvc-5.2.5.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.5.RELEASE/spring-webmvc-5.2.5.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
-          <caret line="32" column="72" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
+          <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanFactoryPostProcessor.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/config/WebmvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/ApplicationEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/ApplicationListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="35" column="54" lean-forward="true" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/event/ApplicationEventMulticaster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="83" column="9" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/ApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/LifecycleProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="999" column="48" selection-start-line="999" selection-start-column="48" selection-end-line="999" selection-end-column="48" />
-          <folding>
-            <element signature="e#13457#13458#0" expanded="true" />
-            <element signature="e#13489#13490#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="80" column="11" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/test/java/com/github/spring/annotation/config/ExtensionConfigTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="312">
+          <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/event/EventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="63" column="31" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/event/EventListenerMethodProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="53" column="67" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE-sources.jar!/org/springframework/beans/factory/SmartInitializingSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="55" column="36" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/java/applicationContext.xml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.5.RELEASE/spring-web-5.2.5.RELEASE.jar!/org/springframework/web/filter/CharacterEncodingFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.5.RELEASE/spring-web-5.2.5.RELEASE-sources.jar!/org/springframework/web/context/ContextLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <caret line="260" column="33" selection-start-line="260" selection-start-column="33" selection-end-line="260" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.5.RELEASE/spring-web-5.2.5.RELEASE-sources.jar!/org/springframework/web/context/ContextLoaderListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="102" column="21" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.5.RELEASE/spring-web-5.2.5.RELEASE-sources.jar!/org/springframework/web/filter/CharacterEncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="53" column="41" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
-          <folding>
-            <element signature="n#filter#0;n#web-app#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.19/mysql-connector-java-8.0.19.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-maven-plugin/1.3.0/mybatis-generator-maven-plugin-1.3.0.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../OpenSources/jdk1.8.0_131/src.zip!/java/math/BigDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="219" column="13" selection-start-line="219" selection-start-column="13" selection-end-line="219" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/resources/MBG.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/webapp/index_old.jsp">
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/component/LoginHandlerInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="18" column="97" selection-start-line="5" selection-start-column="7" selection-end-line="18" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/http/HttpServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1-sources.jar!/javax/servlet/http/HttpServletRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="388" column="18" selection-start-line="388" selection-start-column="18" selection-end-line="388" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="82" selection-start-line="2" selection-start-column="82" selection-end-line="2" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/resources/applicatonContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/bean/BookExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="docComment;field#orderByClause#0;class#BookExample#0" />
-            <element signature="docComment;field#distinct#0;class#BookExample#0" />
-            <element signature="docComment;field#oredCriteria#0;class#BookExample#0" />
-            <element signature="docComment;method#BookExample#0;class#BookExample#0" />
-            <element signature="docComment;method#setOrderByClause#0;class#BookExample#0" />
-            <element signature="docComment;method#getOrderByClause#0;class#BookExample#0" />
-            <element signature="docComment;method#setDistinct#0;class#BookExample#0" />
-            <element signature="docComment;method#isDistinct#0;class#BookExample#0" />
-            <element signature="docComment;method#getOredCriteria#0;class#BookExample#0" />
-            <element signature="docComment;method#or#0;class#BookExample#0" />
-            <element signature="docComment;method#or#1;class#BookExample#0" />
-            <element signature="method#or#1;class#BookExample#0" />
-            <element signature="docComment;method#createCriteria#0;class#BookExample#0" />
-            <element signature="method#createCriteria#0;class#BookExample#0" />
-            <element signature="e#3022#3073#1" />
-            <element signature="docComment;method#createCriteriaInternal#0;class#BookExample#0" />
-            <element signature="method#createCriteriaInternal#0;class#BookExample#0" />
-            <element signature="docComment;method#clear#0;class#BookExample#0" />
-            <element signature="method#clear#0;class#BookExample#0" />
-            <element signature="docComment;class#GeneratedCriteria#0;class#BookExample#0" />
-            <element signature="class#GeneratedCriteria#0;class#BookExample#0" />
-            <element signature="e#3935#4048#0" />
-            <element signature="e#4231#4473#0" />
-            <element signature="e#4314#4411#1" />
-            <element signature="e#4483#4766#0" />
-            <element signature="e#4593#4697#1" />
-            <element signature="e#4776#5112#0" />
-            <element signature="e#4921#5034#1" />
-            <element signature="e#5122#5239#0" />
-            <element signature="e#5249#5373#0" />
-            <element signature="e#5383#5521#0" />
-            <element signature="e#5531#5673#0" />
-            <element signature="e#5683#5825#0" />
-            <element signature="e#5835#5987#0" />
-            <element signature="e#5997#6136#0" />
-            <element signature="e#6146#6295#0" />
-            <element signature="e#6305#6447#0" />
-            <element signature="e#6457#6606#0" />
-            <element signature="e#6616#6786#0" />
-            <element signature="e#6796#6973#0" />
-            <element signature="e#6983#7104#0" />
-            <element signature="e#7114#7242#0" />
-            <element signature="e#7252#7395#0" />
-            <element signature="e#7405#7552#0" />
-            <element signature="e#7562#7709#0" />
-            <element signature="e#7719#7876#0" />
-            <element signature="e#7886#8030#0" />
-            <element signature="e#8040#8194#0" />
-            <element signature="e#8204#8347#0" />
-            <element signature="e#8357#8507#0" />
-            <element signature="e#8517#8664#0" />
-            <element signature="e#8674#8828#0" />
-            <element signature="e#8838#9012#0" />
-            <element signature="e#9022#9203#0" />
-            <element signature="e#9213#9338#0" />
-            <element signature="e#9348#9480#0" />
-            <element signature="e#9490#9639#0" />
-            <element signature="e#9649#9802#0" />
-            <element signature="e#9812#9965#0" />
-            <element signature="e#9975#10138#0" />
-            <element signature="e#10148#10298#0" />
-            <element signature="e#10308#10468#0" />
-            <element signature="e#10478#10627#0" />
-            <element signature="e#10637#10793#0" />
-            <element signature="e#10803#10956#0" />
-            <element signature="e#10966#11126#0" />
-            <element signature="e#11136#11316#0" />
-            <element signature="e#11326#11513#0" />
-            <element signature="e#11523#11646#0" />
-            <element signature="e#11656#11786#0" />
-            <element signature="e#11796#11946#0" />
-            <element signature="e#11956#12110#0" />
-            <element signature="e#12120#12274#0" />
-            <element signature="e#12284#12448#0" />
-            <element signature="e#12458#12609#0" />
-            <element signature="e#12619#12780#0" />
-            <element signature="e#12790#12944#0" />
-            <element signature="e#12954#13115#0" />
-            <element signature="e#13125#13310#0" />
-            <element signature="e#13320#13512#0" />
-            <element signature="e#13522#13645#0" />
-            <element signature="e#13655#13785#0" />
-            <element signature="e#13795#13942#0" />
-            <element signature="e#13952#14103#0" />
-            <element signature="e#14113#14264#0" />
-            <element signature="e#14274#14435#0" />
-            <element signature="e#14445#14593#0" />
-            <element signature="e#14603#14761#0" />
-            <element signature="e#14771#14922#0" />
-            <element signature="e#14932#15090#0" />
-            <element signature="e#15100#15279#0" />
-            <element signature="e#15289#15475#0" />
-            <element signature="e#15485#15608#0" />
-            <element signature="e#15618#15748#0" />
-            <element signature="e#15758#15905#0" />
-            <element signature="e#15915#16066#0" />
-            <element signature="e#16076#16227#0" />
-            <element signature="e#16237#16398#0" />
-            <element signature="e#16408#16556#0" />
-            <element signature="e#16566#16724#0" />
-            <element signature="e#16734#16885#0" />
-            <element signature="e#16895#17053#0" />
-            <element signature="e#17063#17242#0" />
-            <element signature="e#17252#17438#0" />
-            <element signature="e#17448#17576#0" />
-            <element signature="e#17586#17721#0" />
-            <element signature="e#17731#17884#0" />
-            <element signature="e#17894#18051#0" />
-            <element signature="e#18061#18218#0" />
-            <element signature="e#18228#18395#0" />
-            <element signature="e#18405#18559#0" />
-            <element signature="e#18569#18733#0" />
-            <element signature="e#18743#18896#0" />
-            <element signature="e#18906#19066#0" />
-            <element signature="e#19076#19233#0" />
-            <element signature="e#19243#19407#0" />
-            <element signature="e#19417#19601#0" />
-            <element signature="e#19611#19802#0" />
-            <element signature="docComment;class#Criteria#0;class#BookExample#0" />
-            <element signature="class#Criteria#0;class#BookExample#0" />
-            <element signature="docComment;class#Criterion#0;class#BookExample#0" />
-            <element signature="class#Criterion#0;class#BookExample#0" />
-            <element signature="method#Criterion#0;class#Criterion#0;class#BookExample#0" />
-            <element signature="method#Criterion#1;class#Criterion#0;class#BookExample#0" />
-            <element signature="e#21480#21534#1" />
-            <element signature="e#21540#21596#1" />
-            <element signature="method#Criterion#2;class#Criterion#0;class#BookExample#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_crud/src/test/MGBTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_crud/src/test/com/github/ssm/dao/BookMapperTest.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/resources/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="374">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2#11#0" expanded="true" />
+            <element signature="e#2#16#0" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2#16#0" expanded="true" />
+            <element signature="e#2#16#0" expanded="true" />
+            <element signature="e#2#16#0" expanded="true" />
+            <element signature="e#2#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_crud/src/test/com/github/ssm/controller/BookControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/resources/templates/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="16" />
+        <state relative-caret-position="165">
+          <caret line="94" column="65" lean-forward="true" selection-start-line="94" selection-start-column="65" selection-end-line="94" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/component/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
           <folding>
-            <element signature="e#1420#1421#0" expanded="true" />
-            <element signature="e#1497#1498#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm_crud/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        <state>
+          <caret selection-end-line="181" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../课件资料-尚硅谷/05-尚硅谷_java高级/源码、资料、课件/代码/spring-boot-04-web-restfulcrud/src/main/java/com/atguigu/springboot/SpringBoot04WebRestfulcrudApplication.java" />
+    <entry file="file://$PROJECT_DIR$/../../../课件资料-尚硅谷/05-尚硅谷_java高级/源码、资料、课件/代码/spring-boot-04-web-restfulcrud/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/spring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding>
-            <element signature="n#properties#0;n#project#0;n#!!top" />
-            <element signature="n#build#0;n#project#0;n#!!top" />
-            <element signature="n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
-            <element signature="n#plugin#1;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
-            <element signature="n#plugin#2;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
-            <element signature="n#plugin#3;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
-            <element signature="n#plugin#4;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
-            <element signature="n#plugin#5;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
-            <element signature="n#plugin#6;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#11;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#12;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#13;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#14;n#dependencies#0;n#project#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/webapp/WEB-INF/views/list.jsp">
+    <entry file="file://$PROJECT_DIR$/test/pom.xml" />
+    <entry file="file://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.18/lombok-1.16.18.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/java/com/github/study/springcloud/entities/CommonResult.java" />
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/java/com/github/study/springcloud/entities/Payment.java" />
+    <entry file="file://$PROJECT_DIR$/spring-boot/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="69" column="70" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="70" />
+        <state relative-caret-position="320">
+          <caret line="48" column="28" selection-start-line="46" selection-start-column="8" selection-end-line="51" selection-end-column="21" />
+          <folding>
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/bean/Msg.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/2.2.2.RELEASE/spring-boot-devtools-2.2.2.RELEASE.jar!/org/springframework/boot/devtools/restart/RestartLauncher.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+        <state relative-caret-position="528">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/2.2.2.RELEASE/spring-boot-starter-web-2.2.2.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="70" column="36" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/java/com/github/study/springcloud/service/impl/PaymentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.11/pagehelper-5.1.11.jar!/com/github/pagehelper/PageInfo.class">
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/java/com/github/study/springcloud/dao/PaymentDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="33" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.11/pagehelper-5.1.11-sources.jar!/com/github/pagehelper/PageInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/resources/mybatis-config.xml">
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/bean/Book.java">
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/java/com/github/study/springcloud/service/PaymentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="224" column="7" lean-forward="true" selection-start-line="224" selection-start-column="7" selection-end-line="224" selection-end-column="7" />
-          <folding>
-            <element signature="docComment;field#name#0;class#Book#0" />
-            <element signature="docComment;field#author#0;class#Book#0" />
-            <element signature="docComment;field#price#0;class#Book#0" />
-            <element signature="docComment;field#sales#0;class#Book#0" />
-            <element signature="docComment;field#stock#0;class#Book#0" />
-            <element signature="docComment;field#imgPath#0;class#Book#0" />
-            <element signature="docComment;method#getId#0;class#Book#0" />
-            <element signature="docComment;method#setId#0;class#Book#0" />
-            <element signature="docComment;method#getName#0;class#Book#0" />
-            <element signature="docComment;method#setName#0;class#Book#0" />
-            <element signature="docComment;method#getAuthor#0;class#Book#0" />
-            <element signature="docComment;method#setAuthor#0;class#Book#0" />
-            <element signature="docComment;method#getPrice#0;class#Book#0" />
-            <element signature="docComment;method#setPrice#0;class#Book#0" />
-            <element signature="docComment;method#getSales#0;class#Book#0" />
-            <element signature="docComment;method#setSales#0;class#Book#0" />
-            <element signature="docComment;method#getStock#0;class#Book#0" />
-            <element signature="docComment;method#setStock#0;class#Book#0" />
-            <element signature="docComment;method#getImgPath#0;class#Book#0" />
-            <element signature="docComment;method#setImgPath#0;class#Book#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/resources/mapper/BookMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="150" column="8" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="8" />
-          <folding>
-            <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
-            <element signature="n#sql#0;n#mapper#0;n#!!top" />
-            <element signature="n#where#0;n#sql#0;n#mapper#0;n#!!top" />
-            <element signature="n#when#0;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" />
-            <element signature="n#when#1;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" />
-            <element signature="n#when#2;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" />
-            <element signature="n#when#3;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" />
-            <element signature="n#foreach#0;n#when#3;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" />
-            <element signature="n#sql#1;n#mapper#0;n#!!top" />
-            <element signature="n#where#0;n#sql#1;n#mapper#0;n#!!top" />
-            <element signature="n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" />
-            <element signature="n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" />
-            <element signature="n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" />
-            <element signature="n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" />
-            <element signature="n#when#0;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" />
-            <element signature="n#when#1;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" />
-            <element signature="n#when#2;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" />
-            <element signature="n#when#3;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" />
-            <element signature="n#foreach#0;n#when#3;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" />
-            <element signature="n#sql#2;n#mapper#0;n#!!top" />
-            <element signature="e#4683#4820#0" />
-            <element signature="n#if#0;n#select#0;n#mapper#0;n#!!top" />
-            <element signature="n#if#2;n#select#0;n#mapper#0;n#!!top" />
-            <element signature="n#select#1;n#mapper#0;n#!!top" />
-            <element signature="n#delete#0;n#mapper#0;n#!!top" />
-            <element signature="n#delete#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#0;n#delete#1;n#mapper#0;n#!!top" />
-            <element signature="n#insert#0;n#mapper#0;n#!!top" />
-            <element signature="n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#0;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#1;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#2;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#3;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#4;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#5;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#6;n#trim#0;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#0;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#1;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#2;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#3;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#4;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#5;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#6;n#trim#1;n#insert#1;n#mapper#0;n#!!top" />
-            <element signature="n#select#2;n#mapper#0;n#!!top" />
-            <element signature="n#if#0;n#select#2;n#mapper#0;n#!!top" />
-            <element signature="n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#set#0;n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#if#0;n#set#0;n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#if#1;n#set#0;n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#if#2;n#set#0;n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#if#3;n#set#0;n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#if#4;n#set#0;n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#if#5;n#set#0;n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#if#6;n#set#0;n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#if#0;n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#update#1;n#mapper#0;n#!!top" />
-            <element signature="n#if#0;n#update#1;n#mapper#0;n#!!top" />
-            <element signature="n#update#2;n#mapper#0;n#!!top" />
-            <element signature="n#set#0;n#update#2;n#mapper#0;n#!!top" />
-            <element signature="n#if#0;n#set#0;n#update#2;n#mapper#0;n#!!top" />
-            <element signature="n#if#1;n#set#0;n#update#2;n#mapper#0;n#!!top" />
-            <element signature="n#if#2;n#set#0;n#update#2;n#mapper#0;n#!!top" />
-            <element signature="n#if#3;n#set#0;n#update#2;n#mapper#0;n#!!top" />
-            <element signature="n#if#4;n#set#0;n#update#2;n#mapper#0;n#!!top" />
-            <element signature="n#if#5;n#set#0;n#update#2;n#mapper#0;n#!!top" />
-            <element signature="n#update#3;n#mapper#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/dao/BookMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-          <folding>
-            <element signature="docComment;method#countByExample#0;class#BookMapper#0" />
-            <element signature="docComment;method#deleteByExample#0;class#BookMapper#0" />
-            <element signature="docComment;method#deleteByPrimaryKey#0;class#BookMapper#0" />
-            <element signature="docComment;method#insert#0;class#BookMapper#0" />
-            <element signature="docComment;method#insertSelective#0;class#BookMapper#0" />
-            <element signature="docComment;method#selectByExample#0;class#BookMapper#0" />
-            <element signature="docComment;method#selectByPrimaryKey#0;class#BookMapper#0" />
-            <element signature="docComment;method#updateByExampleSelective#0;class#BookMapper#0" />
-            <element signature="docComment;method#updateByExample#0;class#BookMapper#0" />
-            <element signature="docComment;method#updateByPrimaryKeySelective#0;class#BookMapper#0" />
-            <element signature="docComment;method#updateByPrimaryKey#0;class#BookMapper#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/service/BookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        <state relative-caret-position="242">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.5.RELEASE/spring-web-5.2.5.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestMapping.java">
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-api-commons/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2110">
-          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+        <state relative-caret-position="418">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/controller/BookController.java">
+    <entry file="file://$PROJECT_DIR$/springcloud/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="182">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="21" selection-start-line="14" selection-start-column="8" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-consumer-order80/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-eureka-server7002/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-eureka-server7002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-consumer-order80/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="79" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-eureka-server7002/src/main/java/com/github/study/springcloud/EurekaMain7002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getSales#0;class#BookController#0" />
-            <element signature="method#getBooksWithJson#0;class#BookController#0" />
-            <element signature="method#getBooks#0;class#BookController#0" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_crud/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8002/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="222" column="36" selection-start-line="222" selection-start-column="36" selection-end-line="222" selection-end-column="57" />
+        <state relative-caret-position="242">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-consumer-order80/src/main/java/com/github/study/springcloud/OrderMain80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="19" />
           <folding>
-            <element signature="e#65#225#0#JSP" />
-            <element signature="e#310#391#0#JSP" />
-            <element signature="e#418#491#0#JSP" />
-            <element signature="e#1023#1087#0#HTML" />
-            <element signature="e#1120#1576#0#HTML" />
-            <element signature="e#1638#3111#0#HTML" />
-            <element signature="e#3171#3443#0#HTML" />
-            <element signature="e#3503#5635#0#HTML" />
-            <element signature="e#6741#7203#0#HTML" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-consumer-order80/src/main/java/com/github/study/springcloud/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-consumer-order80/src/main/java/com/github/study/springcloud/config/ApplicationContextConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8002/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/java/com/github/study/springcloud/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="67" column="5" lean-forward="true" selection-start-line="56" selection-start-column="4" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#create#0;class#PaymentController#0" />
+            <element signature="method#getPaymentById#0;class#PaymentController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8002/src/main/java/com/github/study/springcloud/PaymentMain8002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8002/src/main/java/com/github/study/springcloud/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <element signature="method#create#0;class#PaymentController#0" />
+            <element signature="e#872#964#1" />
+            <element signature="e#970#1042#1" />
+            <element signature="method#getPaymentById#0;class#PaymentController#0" />
+            <element signature="method#discovery#0;class#PaymentController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-eureka-server7001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-eureka-server7001/src/main/java/com/github/study/springcloud/EurekaMain7001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-eureka-server7001/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/java/com/github/study/springcloud/PaymentMain8001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1422,7 +1203,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (ssm_crud)|Web</last-edited>
+          <last-edited>Detection</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1457,11 +1238,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|ssm_crud</last-edited>
+          <last-edited>cloudproviderpayment8001</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

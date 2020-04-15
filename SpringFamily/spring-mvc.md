@@ -486,7 +486,7 @@ void setViewName(String viewName)
 
 ### **6.4** **常用的视图实现类** 
 
-![image-20200406151555791](spring-mvc.assets/image-20200406151555791.png)
+![image-20200406151555791](images/image-20200406151555791.png)
 
 ### **6.5 JstlView** 
 
@@ -512,7 +512,7 @@ void setViewName(String viewName)
 
 ### **6.7** **常用的视图解析器实现类** 
 
-![image-20200406151701134](spring-mvc.assets/image-20200406151701134.png)
+![image-20200406151701134](images/image-20200406151701134.png)
 
 1） 程序员可以选择一种视图解析器或混用多种视图解析器 
 
@@ -658,7 +658,7 @@ http://localhost:8080/SpringMVC_02_View**/success**
 
 5） Spring MVC 通过反射机制对目标处理方法进行解析，将请求消息绑定到处理方法的入 参中。数据绑定的核心部件是 **DataBinder**，运行机制如下： 
 
-![image-20200406192715601](spring-mvc.assets/image-20200406192715601.png)
+![image-20200406192715601](images/image-20200406192715601.png)
 
 ### **8.4** **自定义类型转换器** 
 
@@ -870,7 +870,7 @@ public Collection<Employee> testJSON(){ return employeeDao.getAll(); }
 
 5 void write(T t,MediaType contnetType,**HttpOutputMessgae** outputMessage):将 T 类型的对象写 到响应流中，同时指定相应的媒体类型为 contentType。
 
-![image-20200406193829353](spring-mvc.assets/image-20200406193829353.png)
+![image-20200406193829353](images/image-20200406193829353.png)
 
 ### **9.3** **使用** **HttpMessageConverter** 
 
@@ -916,4 +916,4 @@ public Collection<Employee> testJSON(){ return employeeDao.getAll(); }
 
 4 SessionLocaleResolver & LocaleChangeInterceptor 工作原理 
 
-![image-20200406194051832](spring-mvc.assets/image-20200406194051832.png)
+![image-20200406194051832](images/image-20200406194051832.png)
