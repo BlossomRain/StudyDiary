@@ -7,7 +7,6 @@ import java.util.Map;
 
 /**
  * @Description:测试yaml语法和配置文件的读取,
- *
  */
 @Component
 //将配置文件中的属性映射到这个类里面

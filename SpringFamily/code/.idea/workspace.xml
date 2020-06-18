@@ -7,89 +7,64 @@
   </component>
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
-      <module name="springcloud" />
       <module name="code" />
-      <module name="cloud-consumer-order80" />
-      <module name="cloud-provider-payment8001" />
-      <module name="cloud-api-commons" />
-      <module name="cloud-eureka-server7001" />
-      <module name="cloud-eureka-server7002" />
-      <module name="cloud-provider-payment8002" />
+      <module name="spring-boot-2" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c994b83a-55f4-4a07-89b4-7171eb42bc0b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-Annotation.assets/20190118172926766.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-Annotation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-Annotation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring.assets/image-20200404160043382.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring.assets/image-20200404184034041.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring.assets/image-20200404185733737.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring.assets/image-20200405104727650.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring.assets/image-20200405105200943.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring.assets/image-20200405105306655.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring.assets/image-20200405110530827.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring.assets/image-20200405213118021.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring.assets/image-20200405213257999.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring.assets/image-20200405213307113.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/bean/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/bean/BookExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/bean/Msg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/controller/BookController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/dao/BookMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/java/com/github/ssm/service/BookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/resources/MBG.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/resources/applicatonContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/resources/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/resources/mapper/BookMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/resources/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/index_old.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/bootstrap-3.3.7-dist/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/main/webapp/static/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/test/MGBTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/test/com/github/ssm/controller/BookControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/src/test/com/github/ssm/dao/BookMapperTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/target/classes/com/github/ssm/bean/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/target/classes/com/github/ssm/bean/BookExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/target/classes/com/github/ssm/bean/BookExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/target/classes/com/github/ssm/bean/BookExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/target/classes/com/github/ssm/bean/BookExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/target/classes/com/github/ssm/bean/Msg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/target/classes/com/github/ssm/controller/BookController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/target/classes/com/github/ssm/dao/BookMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/target/classes/com/github/ssm/service/BookService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/target/test-classes/MGBTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_crud/target/test-classes/com/github/ssm/controller/BookControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc.assets/image-20200406151555791.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc.assets/image-20200406151701134.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc.assets/image-20200406192715601.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc.assets/image-20200406193829353.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc.assets/image-20200406194051832.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc.md" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../错误笔记.assets/1.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../错误笔记.assets/image-20200410223953198.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../错误笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../错误笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/component/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/component/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/component/LoginHandlerInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/component/LoginHandlerInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/component/MyLocaleResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/component/MyLocaleResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/config/WebmvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/config/WebmvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/dao/DepartmentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/dao/DepartmentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/entities/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/entities/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/entities/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/entities/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/pojo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/pojo/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/resources/static/asserts/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/src/main/resources/static/asserts/css/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/resources/static/asserts/css/signin.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/src/main/resources/static/asserts/css/signin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/resources/static/asserts/img/bootstrap-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/src/main/resources/static/asserts/img/bootstrap-solid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/resources/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/src/main/resources/templates/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/resources/templates/emp/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/src/main/resources/templates/emp/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/config/application-dev.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/config/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/config/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/config/person.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/i18n/login.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/i18n/login_en_US.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/i18n/login_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/static/asserts/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/static/asserts/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/static/asserts/css/signin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/static/asserts/img/bootstrap-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/static/asserts/js/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/static/asserts/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/static/asserts/js/feather.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/static/asserts/js/jquery-3.2.1.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/static/asserts/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/templates/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/templates/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/templates/success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/cloud-api-commons/target/classes/com/github/study/springcloud/entities/CommonResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/cloud-api-commons/target/classes/com/github/study/springcloud/entities/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/cloud-consumer-order80/target/classes/com/github/study/springcloud/OrderMain80.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/cloud-consumer-order80/target/classes/com/github/study/springcloud/config/ApplicationContextConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/cloud-consumer-order80/target/classes/com/github/study/springcloud/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/cloud-eureka-server7001/target/classes/com/github/study/springcloud/EurekaMain7001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/cloud-eureka-server7002/target/classes/com/github/study/springcloud/EurekaMain7002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/cloud-provider-payment8001/target/classes/com/github/study/springcloud/PaymentMain8001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/cloud-provider-payment8001/target/classes/com/github/study/springcloud/controller/PaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/cloud-provider-payment8001/target/classes/com/github/study/springcloud/dao/PaymentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/cloud-provider-payment8001/target/classes/com/github/study/springcloud/service/PaymentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/cloud-provider-payment8001/target/classes/com/github/study/springcloud/service/impl/PaymentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/cloud-provider-payment8002/target/classes/com/github/study/springcloud/PaymentMain8002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/cloud-provider-payment8002/target/classes/com/github/study/springcloud/controller/PaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/cloud-provider-payment8002/target/classes/com/github/study/springcloud/dao/PaymentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/cloud-provider-payment8002/target/classes/com/github/study/springcloud/service/PaymentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/cloud-provider-payment8002/target/classes/com/github/study/springcloud/service/impl/PaymentServiceImpl.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spring/target/" />
     <ignored path="$PROJECT_DIR$/ssm_crud/target/" />
@@ -102,6 +77,7 @@
     <ignored path="$PROJECT_DIR$/springcloud/cloud-eureka-server7001/target/" />
     <ignored path="$PROJECT_DIR$/springcloud/cloud-eureka-server7002/target/" />
     <ignored path="$PROJECT_DIR$/springcloud/cloud-provider-payment8002/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-2/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,12 +89,63 @@
     <option name="PARALLEL_COMPILATION" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/resources/application.yaml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-2/src/main/java/com/github/study/springboot2/cache/controller/DeptController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="286">
+              <caret line="13" column="9" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-2/src/main/resources/application.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-2/src/main/java/com/github/study/springboot2/SpringBoot2Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-2/src/main/java/com/github/study/springboot2/cache/controller/EmployeeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-2/src/main/java/com/github/study/springboot2/cache/service/EmployeeService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-2/src/main/java/com/github/study/springboot2/cache/service/DeptService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -130,11 +157,11 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Tag Library Descriptor" />
-        <option value="JUnit4 Test Class" />
         <option value="Jsp File" />
         <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -150,6 +177,8 @@
       <find>version</find>
       <find>lombok</find>
       <find>tomcat</find>
+      <find>initProper</find>
+      <find>initPro</find>
     </findStrings>
     <replaceStrings>
       <replace>\n</replace>
@@ -162,15 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-boot/src/test/java/com/gihub/study/springboot/ApplicationTests.java" />
-        <option value="$PROJECT_DIR$/spring-boot/src/main/resources/templates/success.html" />
-        <option value="$PROJECT_DIR$/spring-boot/src/main/resources/config/application.yaml" />
-        <option value="$PROJECT_DIR$/spring-boot/src/main/resources/config/application-dev.yaml" />
-        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/dao/DepartmentDao.java" />
-        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/dao/EmployeeDao.java" />
-        <option value="$PROJECT_DIR$/spring-boot/src/main/resources/i18n/login_zh_CN.properties" />
-        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/component/MyLocaleResolver.java" />
-        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/test/Analyze.java" />
         <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/test/Item.java" />
         <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/test/LR0.java" />
         <option value="$PROJECT_DIR$/spring-boot/src/main/resources/config/application.properties" />
@@ -213,6 +233,15 @@
         <option value="$PROJECT_DIR$/springcloud/cloud-provider-payment8002/src/main/java/com/github/study/springcloud/controller/PaymentController.java" />
         <option value="$PROJECT_DIR$/springcloud/cloud-eureka-server7001/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/spring-boot-2/src/main/java/com/github/study/springboot2/mapper/DepartmentMapper.java" />
+        <option value="$PROJECT_DIR$/spring-boot-2/src/main/java/com/github/study/springboot2/mapper/EmployeeMapper.java" />
+        <option value="$PROJECT_DIR$/spring-boot-2/src/test/java/com/github/study/springboot2/SpringBoot2ApplicationTest.java" />
+        <option value="$PROJECT_DIR$/spring-boot-2/src/main/java/com/github/study/springboot2/cache/controller/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-2/src/main/java/com/github/study/springboot2/cache/service/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/spring-boot-2/src/main/java/com/github/study/springboot2/cache/service/DeptService.java" />
+        <option value="$PROJECT_DIR$/spring-boot-2/src/main/java/com/github/study/springboot2/cache/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-2/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/spring-boot-2/src/main/java/com/github/study/springboot2/SpringBoot2Application.java" />
       </list>
     </option>
   </component>
@@ -240,17 +269,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-api-commons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-api-commons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -272,6 +291,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -282,34 +302,25 @@
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -317,18 +328,37 @@
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot2" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot2" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -338,22 +368,25 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586949808000" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587044612130" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../课件资料-尚硅谷/05-尚硅谷_java高级/源码、资料、课件/代码/spring-boot-04-web-restfulcrud/spring-boot-04-web-restfulcrud.iml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot/spring-boot.iml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -363,6 +396,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.github.study.springboot2" />
       <recent name="com.github.ssm.controller" />
       <recent name="com.github.ssm.dao" />
       <recent name="com.github.spring.annotation.config" />
@@ -382,11 +416,11 @@
       <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\ssm_crud\src\main" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\spring-boot-2\src\main\java\com\github\study\springboot2" />
+      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\spring-boot-2\src\main\java\com\github\study\springboot2\mapper" />
+      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\spring-boot-2\src\main\java\com\github\study\springboot2\bean" />
       <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\springcloud\cloud-provider-payment8002" />
       <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\springcloud\cloud-provider-payment8002\src" />
-      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\springcloud\cloud-api-commons\src\main\java\com\github\study" />
-      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\springcloud\cloud-consumer-order80\src\main\java\com\github\study\springcloud" />
-      <recent name="E:\Java\java\20200123\study_diary\SpringFamily\code\ssm_crud" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.github.study.springcloud.entities" />
@@ -414,35 +448,82 @@
     </option>
     <option name="contentProportion" value="0.26197836" />
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekeMain7001">
-    <configuration name="ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot" />
+  <component name="RunManager" selected="JUnit.SpringBoot2ApplicationTest.contextLoads">
+    <configuration name="HelloSpringTest.sayHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gihub.study.springboot.*" />
+          <option name="PATTERN" value="com.github.spring.beans.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gihub.study.springboot" />
-      <option name="MAIN_CLASS_NAME" value="com.gihub.study.springboot.ApplicationTests" />
+      <option name="PACKAGE_NAME" value="com.github.spring.beans" />
+      <option name="MAIN_CLASS_NAME" value="com.github.spring.beans.HelloSpringTest" />
+      <option name="METHOD_NAME" value="sayHello" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot2ApplicationTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.study.springboot2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.study.springboot2" />
+      <option name="MAIN_CLASS_NAME" value="com.github.study.springboot2.SpringBoot2ApplicationTest" />
       <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookControllerTest.getBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssm_crud" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.ssm.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.ssm.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.github.ssm.controller.BookControllerTest" />
-      <option name="METHOD_NAME" value="getBooks" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="spring" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="spring" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -503,6 +584,13 @@
     <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-payment8002" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.study.springcloud.PaymentMain8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.study.springboot2.SpringBoot2Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -616,8 +704,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BookControllerTest.getBooks" />
-      <item itemvalue="JUnit.ApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.HelloSpringTest.sayHello" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.EurekeMain7001" />
       <item itemvalue="Spring Boot.PaymentMain8002" />
@@ -625,14 +712,16 @@
       <item itemvalue="Spring Boot.OrderMain80" />
       <item itemvalue="Spring Boot.EurekaMain7002" />
       <item itemvalue="Tomcat Server.ssm_crud" />
+      <item itemvalue="Spring Boot.SpringBoot2Application" />
+      <item itemvalue="JUnit.SpringBoot2ApplicationTest.contextLoads" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringBoot2ApplicationTest.contextLoads" />
+        <item itemvalue="JUnit.HelloSpringTest.sayHello" />
         <item itemvalue="Spring Boot.OrderMain80" />
         <item itemvalue="Spring Boot.PaymentMain8001" />
         <item itemvalue="Spring Boot.EurekaMain7002" />
-        <item itemvalue="JUnit.ApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.BookControllerTest.getBooks" />
       </list>
     </recent_temporary>
   </component>
@@ -678,22 +767,13 @@
       <workItem from="1586919566238" duration="10136000" />
       <workItem from="1586948911319" duration="952000" />
       <workItem from="1586957561638" duration="1054000" />
+      <workItem from="1587022548217" duration="1042000" />
+      <workItem from="1587023842166" duration="2785000" />
+      <workItem from="1587042164532" duration="3010000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookMapperTest_testCRUD - 2020.04.11 at 10h 46m 30s.xml">
-      <configuration name="BookMapperTest.testCRUD" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookControllerTest_getBooks - 2020.04.11 at 11h 33m 22s.xml">
-      <configuration name="BookControllerTest.getBooks" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookControllerTest_getBooks - 2020.04.11 at 11h 33m 47s.xml">
-      <configuration name="BookControllerTest.getBooks" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookControllerTest_getBooks - 2020.04.11 at 11h 36m 23s.xml">
-      <configuration name="BookControllerTest.getBooks" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ApplicationTests_contextLoads - 2020.04.12 at 12h 52m 42s.xml">
       <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
@@ -712,9 +792,21 @@
     <history-entry file="ApplicationTests_contextLoads - 2020.04.12 at 17h 37m 31s.xml">
       <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HelloSpringTest_sayHello - 2020.04.16 at 16h 13m 44s.xml">
+      <configuration name="HelloSpringTest.sayHello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloSpringTest_sayHello - 2020.04.16 at 16h 27m 25s.xml">
+      <configuration name="HelloSpringTest.sayHello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringBoot2ApplicationTest_contextLoads - 2020.04.16 at 21h 31m 15s.xml">
+      <configuration name="SpringBoot2ApplicationTest.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringBoot2ApplicationTest_contextLoads - 2020.04.16 at 21h 32m 50s.xml">
+      <configuration name="SpringBoot2ApplicationTest.contextLoads" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125143000" />
+    <option name="totallyTimeSpent" value="131980000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -729,7 +821,7 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.32747602" weight="0.21104388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.32747602" visible="true" weight="0.25416037" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -739,10 +831,10 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info id="Web" order="8" sideWeight="0.672524" side_tool="true" weight="0.2602118" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32747602" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3258786" />
       <window_info anchor="bottom" id="Run Dashboard" order="2" sideWeight="0.4977307" weight="0.63258785" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4969743" weight="0.69009584" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39969134" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.50319487" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3290735" />
@@ -776,299 +868,61 @@
     <option name="version" value="1" />
   </component>
   <component name="UnloadedModulesList">
+    <module name="cloud-api-commons" />
+    <module name="cloud-consumer-order80" />
+    <module name="cloud-eureka-server7001" />
+    <module name="cloud-eureka-server7002" />
+    <module name="cloud-provider-payment8001" />
+    <module name="cloud-provider-payment8002" />
     <module name="spring" />
     <module name="spring-boot" />
     <module name="spring-mvc" />
+    <module name="springcloud" />
     <module name="ssm_crud" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring/src/test/java/com/github/spring/beans/HelloSpringTest.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java</url>
+          <line>135</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java</url>
+          <line>136</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>217</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.java</url>
+          <line>122</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>586</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/component/MyLocaleResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/test.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/test/Item.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/test/LR0.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/test/Analyze.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/resources/config/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/controller/GreetingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.5.RELEASE/spring-webmvc-5.2.5.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.5.RELEASE/spring-webmvc-5.2.5.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/config/WebmvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/component/LoginHandlerInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding>
-            <element signature="e#2#11#0" expanded="true" />
-            <element signature="e#2#16#0" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2#16#0" expanded="true" />
-            <element signature="e#2#16#0" expanded="true" />
-            <element signature="e#2#16#0" expanded="true" />
-            <element signature="e#2#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/resources/templates/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="94" column="65" lean-forward="true" selection-start-line="94" selection-start-column="65" selection-end-line="94" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/component/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_crud/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="181" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../课件资料-尚硅谷/05-尚硅谷_java高级/源码、资料、课件/代码/spring-boot-04-web-restfulcrud/src/main/java/com/atguigu/springboot/SpringBoot04WebRestfulcrudApplication.java" />
-    <entry file="file://$PROJECT_DIR$/../../../课件资料-尚硅谷/05-尚硅谷_java高级/源码、资料、课件/代码/spring-boot-04-web-restfulcrud/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/spring/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding>
-            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#11;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#12;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#13;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#14;n#dependencies#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pom.xml" />
-    <entry file="file://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.18/lombok-1.16.18.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/java/com/github/study/springcloud/entities/CommonResult.java" />
-    <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/java/com/github/study/springcloud/entities/Payment.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="48" column="28" selection-start-line="46" selection-start-column="8" selection-end-line="51" selection-end-column="21" />
-          <folding>
-            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#build#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/2.2.2.RELEASE/spring-boot-devtools-2.2.2.RELEASE.jar!/org/springframework/boot/devtools/restart/RestartLauncher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/2.2.2.RELEASE/spring-boot-starter-web-2.2.2.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="70" column="36" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/java/com/github/study/springcloud/service/impl/PaymentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/java/com/github/study/springcloud/dao/PaymentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/java/com/github/study/springcloud/service/PaymentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/cloud-api-commons/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="21" selection-start-line="14" selection-start-column="8" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/cloud-consumer-order80/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/cloud-eureka-server7002/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/cloud-eureka-server7002/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/cloud-consumer-order80/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="79" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/cloud-eureka-server7002/src/main/java/com/github/study/springcloud/EurekaMain7002.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8002/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/cloud-consumer-order80/src/main/java/com/github/study/springcloud/OrderMain80.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud/cloud-consumer-order80/src/main/java/com/github/study/springcloud/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
@@ -1166,10 +1020,374 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/HELP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/component/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/component/LoginHandlerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/github/study/springboot/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="n#parent#0;n#project#0;n#!!top" />
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/gihub/study/springboot/controller/GreetingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+          <folding>
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#11;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#12;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#13;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#14;n#dependencies#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/github/spring/annotation/config/AOPConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/test/java/com/github/spring/annotation/config/AOPConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../OpenSources/jdk1.8.0_131/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../OpenSources/jdk1.8.0_131/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../OpenSources/jdk1.8.0_131/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="497" selection-start-line="497" selection-end-line="497" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/org/apache/commons/logging/LogFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="237" selection-start-line="237" selection-end-line="237" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE-sources.jar!/org/springframework/core/io/support/PathMatchingResourcePatternResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="219" column="62" selection-start-line="219" selection-start-column="62" selection-end-line="219" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE-sources.jar!/org/springframework/core/io/DefaultResourceLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="53" column="48" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+          <folding>
+            <element signature="e#1679#1697#0" expanded="true" />
+            <element signature="e#1969#1970#0" expanded="true" />
+            <element signature="e#2029#2030#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE-sources.jar!/org/springframework/core/env/MissingRequiredPropertiesException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#1229#1237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE-sources.jar!/org/springframework/core/env/AbstractPropertyResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE-sources.jar!/org/springframework/core/env/AbstractEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="512" selection-start-line="512" selection-end-line="512" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE-sources.jar!/org/springframework/core/io/support/ResourcePatternResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="87" column="11" lean-forward="true" selection-start-line="87" selection-start-column="11" selection-end-line="87" selection-end-column="11" />
+          <folding>
+            <element signature="e#3790#3791#0" expanded="true" />
+            <element signature="e#3810#3811#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+          <folding>
+            <element signature="e#2128#2129#0" expanded="true" />
+            <element signature="e#2148#2149#0" expanded="true" />
+            <element signature="e#4469#4470#0" expanded="true" />
+            <element signature="e#4533#4534#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/support/AbstractXmlApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="60" column="10" lean-forward="true" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+          <folding>
+            <element signature="e#2311#2312#0" expanded="true" />
+            <element signature="e#2331#2332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/test/java/com/github/spring/beans/HelloSpringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2596">
+          <caret line="138" column="17" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE-sources.jar!/org/springframework/core/env/ConfigurablePropertyResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1716">
+          <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE-sources.jar!/org/springframework/core/env/StandardEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="1334" column="28" selection-start-line="1334" selection-start-column="28" selection-end-line="1334" selection-end-column="28" />
+          <folding>
+            <element signature="e#9656#9657#0" expanded="true" />
+            <element signature="e#9722#9723#0" expanded="true" />
+            <element signature="e#12576#12577#0" expanded="true" />
+            <element signature="e#12615#12616#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+          <folding>
+            <element signature="n#parent#0;n#project#0;n#!!top" />
+            <element signature="n#exclusion#0;n#exclusions#0;n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-2/src/main/java/com/github/study/springboot2/cache/bean/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-2/src/main/java/com/github/study/springboot2/cache/mapper/DepartmentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-2/src/test/java/com/github/study/springboot2/SpringBoot2ApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8001/src/main/resources/application.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        <state relative-caret-position="176">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-2/src/main/java/com/github/study/springboot2/cache/mapper/EmployeeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-2/src/main/java/com/github/study/springboot2/cache/service/DeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-2/src/main/java/com/github/study/springboot2/cache/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="9" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-2/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-2/src/main/java/com/github/study/springboot2/SpringBoot2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-2/src/main/java/com/github/study/springboot2/cache/controller/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-2/src/main/java/com/github/study/springboot2/cache/service/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1203,7 +1421,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Detection</last-edited>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1238,12 +1456,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cloudproviderpayment8001</last-edited>
+          <last-edited>code</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

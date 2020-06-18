@@ -7,12 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-api-commons" />
-        <module name="cloud-consumer-order80" />
-        <module name="cloud-eureka-server7001" />
-        <module name="cloud-eureka-server7002" />
-        <module name="cloud-provider-payment8001" />
-        <module name="cloud-provider-payment8002" />
+        <module name="spring-boot-2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -22,6 +17,9 @@
       <module name="cloud-eureka-server7002" target="1.8" />
       <module name="cloud-provider-payment8001" target="1.8" />
       <module name="cloud-provider-payment8002" target="1.8" />
+      <module name="spring" target="1.8" />
+      <module name="spring-boot" target="1.8" />
+      <module name="spring-boot-2" target="1.8" />
       <module name="springcloud" target="1.8" />
       <module name="test" target="1.8" />
     </bytecodeTargetLevel>
@@ -35,6 +33,9 @@
       <module name="cloud-eureka-server7002" options="" />
       <module name="cloud-provider-payment8001" options="" />
       <module name="cloud-provider-payment8002" options="" />
+      <module name="spring" options="" />
+      <module name="spring-boot" options="-parameters" />
+      <module name="spring-boot-2" options="-parameters" />
       <module name="springcloud" options="" />
       <module name="test" options="" />
     </option>

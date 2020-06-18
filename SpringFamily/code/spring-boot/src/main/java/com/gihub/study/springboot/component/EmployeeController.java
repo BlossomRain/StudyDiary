@@ -22,7 +22,7 @@ public class EmployeeController {
     @GetMapping("/emps")
     public String list(Model model) {
         Collection<Employee> all = dao.getAll();
-        model.addAttribute("emps",all);
+        model.addAttribute("emps", all);
         return "emp/list";
     }
 }

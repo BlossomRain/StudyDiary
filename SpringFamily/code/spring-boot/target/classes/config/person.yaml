@@ -1,9 +1,0 @@
-person:
-  name: Elle${random}
-  age: 12
-  hobbies:
-    k1: v1
-    k2: v2
-  pet:
-    name: xiaogou
-    color: red

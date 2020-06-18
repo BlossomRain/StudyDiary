@@ -10,7 +10,19 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/springcloud/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-2/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/springcloud/cloud-api-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-consumer-order80/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-eureka-server7001/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-eureka-server7002/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-provider-payment8001/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/cloud-provider-payment8002/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
